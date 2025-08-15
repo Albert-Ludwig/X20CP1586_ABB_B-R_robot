@@ -1,0 +1,116 @@
+﻿@import "mixins.scss";
+#Public_Navigation_Left_PowerSwitch {
+	@include elemTop(20);
+}
+#Public_Navigation_Left_PowerSwitch {
+	@include elemLeft(0);
+}
+#Public_Navigation_Left_PowerSwitch {
+	@include elemAutoWidth(140);
+}
+#Public_Navigation_Left_PowerSwitch {
+	@include elemAutoHeight(40);
+}
+#Public_Navigation_Left_PowerSwitch {
+		z-index: 0;
+}
+#Public_Navigation_Left_HomeButton {
+	@include elemTop(120);
+}
+#Public_Navigation_Left_HomeButton {
+	@include elemLeft(0);
+}
+#Public_Navigation_Left_HomeButton {
+	@include elemAutoWidth(140);
+}
+#Public_Navigation_Left_HomeButton {
+	@include elemAutoHeight(40);
+}
+#Public_Navigation_Left_HomeButton {
+		z-index: 1;
+}
+#Public_Navigation_Left_HomeButton {
+	span{
+		font-size: 18px;
+	}
+}
+#Public_Navigation_Left_RunProgram_button {
+	@include elemTop(220);
+}
+#Public_Navigation_Left_RunProgram_button {
+	@include elemLeft(0);
+}
+#Public_Navigation_Left_RunProgram_button {
+	@include elemAutoWidth(140);
+}
+#Public_Navigation_Left_RunProgram_button {
+	@include elemAutoHeight(40);
+}
+#Public_Navigation_Left_RunProgram_button {
+		z-index: 2;
+}
+#Public_Navigation_Left_RunProgram_button {
+	span{
+		font-size: 18px;
+	}
+}
+#Public_Navigation_Left_InterruptButton {
+	@include elemTop(320);
+}
+#Public_Navigation_Left_InterruptButton {
+	@include elemLeft(0);
+}
+#Public_Navigation_Left_InterruptButton {
+	@include elemAutoWidth(140);
+}
+#Public_Navigation_Left_InterruptButton {
+	@include elemAutoHeight(40);
+}
+#Public_Navigation_Left_InterruptButton {
+		z-index: 3;
+}
+#Public_Navigation_Left_InterruptButton {
+	span{
+		font-size: 18px;
+	}
+}
+#Public_Navigation_Left_ContinueButton {
+	@include elemTop(420);
+}
+#Public_Navigation_Left_ContinueButton {
+	@include elemLeft(0);
+}
+#Public_Navigation_Left_ContinueButton {
+	@include elemAutoWidth(140);
+}
+#Public_Navigation_Left_ContinueButton {
+	@include elemAutoHeight(40);
+}
+#Public_Navigation_Left_ContinueButton {
+		z-index: 4;
+}
+#Public_Navigation_Left_ContinueButton {
+	span{
+		font-size: 18px;
+	}
+}
+#Public_Navigation_Left_SingleChangeButton {
+	@include elemTop(520);
+}
+#Public_Navigation_Left_SingleChangeButton {
+	@include elemLeft(0);
+}
+#Public_Navigation_Left_SingleChangeButton {
+	@include elemAutoWidth(140);
+}
+#Public_Navigation_Left_SingleChangeButton {
+	@include elemAutoHeight(40);
+}
+#Public_Navigation_Left_SingleChangeButton {
+		z-index: 5;
+}
+#Public_Navigation_Left_SingleChangeButton {
+	span{
+		font-size: 18px;
+	}
+}

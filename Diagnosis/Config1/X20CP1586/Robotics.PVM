@@ -1,0 +1,117 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Robotics 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=303 Type=242 Scope=60 Force=84 Index=27 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                               fbMy6Axis                           MpRoboArm6Axis    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                       103186448"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              Parameters                                    UDINT    0 "                                                       209546386"    1    7    1   10    0    0         
+                                  Update                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                Override                                     REAL    0 "                                                            10.0"    1    8    1   10    0    0         
+                                   Power                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                    Home                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             MoveProgram                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               Interrupt                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                Continue                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                     Jog                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              MoveDirect                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              MoveLinear                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              SingleStep                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                              UpdateDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                       X                                    LREAL    0 "                                                          1237.5"    1   14    1   10    0    0         
+                                       Y                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                                       Z                                    LREAL    0 "                                                          1466.0"    1   14    1   10    0    0         
+                                       A                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                                       B                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                                       C                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
+                            PathVelocity                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                          CommandAborted                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 PowerOn                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                 IsHomed                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              MoveActive                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                         MoveInterrupted                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                MoveDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Stopped                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                InMotion                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                        SingleStepActive                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                   MpRoboArm6AxisInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                      CommunicationReady                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                          ReadyToPowerOn                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                         WaitForContinue                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                       JointAxisPosition                              LREAL[0..5]    0 "                                                               *"    2   14    6    0    0    0         
+                    JointAxisPosition[0]                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                    JointAxisPosition[1]                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                    JointAxisPosition[2]                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                    JointAxisPosition[3]                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                    JointAxisPosition[4]                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                    JointAxisPosition[5]                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                                 Program                            McPrgInfoType    0 "                                                               *"    2   24    1    0    0    1         
+                             MainProgram                              STRING[260]    0 "                                                    'Robotic.st'"    3    9  261    1    0    0         
+                             InitProgram                              STRING[260]    0 "                                                              ''"    3    9  261    1    0    0         
+                          CurrentProgram                              STRING[260]    0 "                                                    'Robotic.st'"    3    9  261    1    0    0         
+                          ProgramMonitor                  McPrgInfoPrgMonitorType    0 "                                                               *"    3   24    1    0    0    0         
+                              LineNumber                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                             BlockNumber                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                          OverallRuntime                                    LREAL    0 "                                                               *"    4   14    1   10    0    0         
+                         MovementRuntime                                    LREAL    0 "                                                               *"    4   14    1   10    0    0         
+                        CurrentDwellTime                                    LREAL    0 "                                                               *"    4   14    1   10    0    0         
+                      RemainingDwellTime                                    LREAL    0 "                                                               *"    4   14    1   10    0    0         
+                            BlockMonitor                McPrgInfoBlockMonitorType    0 "                                                               *"    4   24    1    0    0    0         
+                              SecondLast                              STRING[260]    0 "                                                               *"    5    9  261    1    0    0         
+                                    Last                              STRING[260]    0 "                                                               *"    5    9  261    1    0    0         
+                                 Current                              STRING[260]    0 "                                                               *"    5    9  261    1    0    0         
+                                    Next                              STRING[260]    0 "                                                               *"    5    9  261    1    0    0         
+                              SecondNext                              STRING[260]    0 "                                                               *"    5    9  261    1    0    0         
+                            ProgramPhase                                     DINT    0 "                                                               0"    3    4    1   10    0    0 e,0,mcPR
+
+                         InterruptStatus                                     DINT    0 "                                                               0"    3    4    1   10    0    0 e,0,mcIN
+
+                                    Path                           McPathInfoType    0 "                                                               *"    2   24    1    0    0    1         
+                     CurrentPathVelocity                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                     CurrentPathPosition                                    LREAL    0 "                                              271.24999005897507"    3   14    1   10    0    0         
+                           CurrentLength                                    LREAL    0 "                                              126.59540485137639"    3   14    1   10    0    0         
+                       RemainingDistance                                    LREAL    0 "                                                             0.0"    3   14    1   10    0    0         
+                  ProgrammedPathVelocity                                     REAL    0 "                                                      83.3333359"    3    8    1   10    0    0         
+                               JogStatus                                     DINT    0 "                                                               0"    2    4    1   10    0    0 e,0,mcJO
+
+                            PLCopenState                                     DINT    0 "                                                               2"    2    4    1   10    0    0 e,0,mcGR
+
+                                    Diag                    MpRoboticsDiagExtType    0 "                                                               *"    2   24    1    0    0    0         
+                                StatusID                   MpRoboticsStatusIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcRO
+
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                                Internal                      MpComInternalIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0         
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                Facility                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,-1,mpC
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              HomeButton                                ButtonTyp    0 "                                                               *"    0   24    1    0    1    1         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                 Visible                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                         InterruptButton                                ButtonTyp    0 "                                                               *"    0   24    1    0    1    1         
+                                  Enable                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Visible                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               RunButton                                ButtonTyp    0 "                                                               *"    0   24    1    0    1    1         
+                                  Enable                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Visible                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                        SingleStepButton                                ButtonTyp    0 "                                                               *"    0   24    1    0    1    1         
+                                  Enable                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Visible                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                          ContinueButton                                ButtonTyp    0 "                                                               *"    0   24    1    0    1    1         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                 Visible                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             My6Axis_Par                    MpRoboArm6AxisParType    0 "                                                               *"    0   24    1    0    1    1         
+                                Velocity                                     REAL    0 "                                                           100.0"    1    8    1   10    0    0         

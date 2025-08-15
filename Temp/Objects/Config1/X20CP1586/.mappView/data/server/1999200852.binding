@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="public_navigation_up">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Human_Comp:visDateTime" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="public_navigation_up_Time_display" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="ProgramMain">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:My6Axis_Par.ProgramName" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ProgramMain_ProgramInput" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:My6Axis_Par.ProgramName" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ProgramMain_ProgramInput" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="public_navigation_up">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.CurrentProgram" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="public_navigation_up_ProgramName" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.SingleStep" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_SingleChangeButton" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.SingleStep" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_SingleChangeButton" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.LineNumber" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Line_Number" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.StatusID" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Line_Number1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.OverallRuntime" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_PathVelValue1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.MovementRuntime" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_MovementRunTime" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:RunButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_RunProgram_button" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:PowerButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_PowerSwitch" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:InterruptButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_InterruptButton" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:ContinueButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_ContinueButton" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:SingleStepButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_SingleChangeButton" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:HomeButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Left_HomeButton" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:LogInButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_LogIn" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:SettingButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Setting_button" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:ManualButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Manual_Mode" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="Public_Navigation">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:ServiceButton.Enable" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="Public_Navigation_Service" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:Message" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Message" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

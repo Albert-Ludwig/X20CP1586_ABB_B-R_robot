@@ -1,0 +1,81 @@
+﻿@import "mixins.scss";
+#Setting_Main_Adjust_Time {
+	@include elemTop(160);
+}
+#Setting_Main_Adjust_Time {
+	@include elemLeft(80);
+}
+#Setting_Main_Adjust_Time {
+	@include elemAutoWidth(120);
+}
+#Setting_Main_Adjust_Time {
+	@include elemAutoHeight(60);
+}
+#Setting_Main_Adjust_Time {
+		z-index: 0;
+}
+#Setting_Main_Adjust_Theme {
+	@include elemTop(160);
+}
+#Setting_Main_Adjust_Theme {
+	@include elemLeft(300);
+}
+#Setting_Main_Adjust_Theme {
+	@include elemAutoWidth(120);
+}
+#Setting_Main_Adjust_Theme {
+	@include elemAutoHeight(60);
+}
+#Setting_Main_Adjust_Theme {
+		z-index: 1;
+}
+#Setting_Main_Documenttaion_button {
+	@include elemTop(160);
+}
+#Setting_Main_Documenttaion_button {
+	@include elemLeft(520);
+}
+#Setting_Main_Documenttaion_button {
+	@include elemAutoWidth(120);
+}
+#Setting_Main_Documenttaion_button {
+	@include elemAutoHeight(60);
+}
+#Setting_Main_Documenttaion_button {
+		z-index: 2;
+}
+#Setting_Main_Unit_Language_button {
+	@include elemTop(160);
+}
+#Setting_Main_Unit_Language_button {
+	@include elemLeft(740);
+}
+#Setting_Main_Unit_Language_button {
+	@include elemAutoWidth(120);
+}
+#Setting_Main_Unit_Language_button {
+	@include elemAutoHeight(60);
+}
+#Setting_Main_Unit_Language_button {
+		z-index: 3;
+}
+#Setting_Main_Unit_Language_button {
+	span{
+		font-size: 13px;
+	}
+}
+#Setting_Main_ProgramSelection {
+	@include elemTop(160);
+}
+#Setting_Main_ProgramSelection {
+	@include elemLeft(960);
+}
+#Setting_Main_ProgramSelection {
+	@include elemAutoWidth(120);
+}
+#Setting_Main_ProgramSelection {
+	@include elemAutoHeight(60);
+}
+#Setting_Main_ProgramSelection {
+		z-index: 4;
+}

@@ -1,0 +1,147 @@
+#MainPageContent2_SDM {
+  top: 40px;
+  position: absolute;
+}
+
+#MainPageContent2_SDM {
+  left: 200px;
+  position: absolute;
+}
+
+#MainPageContent2_SDM {
+  width: 1024px;
+}
+
+#MainPageContent2_SDM {
+  height: 768px;
+}
+
+#MainPageContent2_SDM {
+  z-index: 0;
+}
+
+#MainPageContent2_Status_ID {
+  width: 100px;
+}
+
+#MainPageContent2_Status_ID {
+  height: 30px;
+}
+
+#MainPageContent2_Status_ID {
+  top: 80px;
+  position: absolute;
+}
+
+#MainPageContent2_Status_ID {
+  left: 40px;
+  position: absolute;
+}
+
+#MainPageContent2_Status_ID {
+  z-index: 1;
+}
+
+#MainPageContent2_Status_ID_number {
+  height: 30px;
+}
+
+#MainPageContent2_Status_ID_number {
+  top: 120px;
+  position: absolute;
+}
+
+#MainPageContent2_Status_ID_number {
+  left: 40px;
+  position: absolute;
+}
+
+#MainPageContent2_Status_ID_number {
+  width: 140px;
+}
+
+#MainPageContent2_Status_ID_number {
+  z-index: 2;
+}
+
+#MainPageContent2_Status_ID_number input {
+  color: #c00000;
+}
+
+#MainPageContent2_Status_ID_number span.breaseNumericOutput_unit {
+  color: #c00000;
+}
+
+#MainPageContent2_Error_state {
+  width: 100px;
+}
+
+#MainPageContent2_Error_state {
+  height: 30px;
+}
+
+#MainPageContent2_Error_state {
+  top: 180px;
+  position: absolute;
+}
+
+#MainPageContent2_Error_state {
+  left: 40px;
+  position: absolute;
+}
+
+#MainPageContent2_Error_state {
+  z-index: 3;
+}
+
+#MainPageContent2_Error_state_number {
+  height: 30px;
+}
+
+#MainPageContent2_Error_state_number {
+  top: 220px;
+  position: absolute;
+}
+
+#MainPageContent2_Error_state_number {
+  left: 40px;
+  position: absolute;
+}
+
+#MainPageContent2_Error_state_number {
+  width: 140px;
+}
+
+#MainPageContent2_Error_state_number {
+  z-index: 4;
+}
+
+#MainPageContent2_Error_state_number input {
+  color: #c00000;
+}
+
+#MainPageContent2_Error_state_number span.breaseNumericOutput_unit {
+  color: #c00000;
+}
+
+#MainPageContent2_ErrorResetButton {
+  top: 300px;
+  position: absolute;
+}
+
+#MainPageContent2_ErrorResetButton {
+  left: 40px;
+  position: absolute;
+}
+
+#MainPageContent2_ErrorResetButton {
+  width: 120px;
+}
+
+#MainPageContent2_ErrorResetButton {
+  height: 40px;
+}
+
+#MainPageContent2_ErrorResetButton {
+  z-index: 5;
+}

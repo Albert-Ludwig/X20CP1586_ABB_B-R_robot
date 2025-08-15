@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="public_navigation_Left_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+  <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Power" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="PowerSwitch" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Home" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="HomeButton" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.MoveProgram" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="RunProgram_button" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

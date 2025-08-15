@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Robotics/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1586/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/Robotics/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRobotics/MpRobotics.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRobotics/MpRobotics.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/McAxGroup/McAxGroup.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Human_Computer/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.fun

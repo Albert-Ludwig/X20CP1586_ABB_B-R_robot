@@ -1,0 +1,151 @@
+#Public_Navigation_Left_PowerSwitch {
+  top: 20px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_PowerSwitch {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_PowerSwitch {
+  width: 140px;
+}
+
+#Public_Navigation_Left_PowerSwitch {
+  height: 40px;
+}
+
+#Public_Navigation_Left_PowerSwitch {
+  z-index: 0;
+}
+
+#Public_Navigation_Left_HomeButton {
+  top: 120px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_HomeButton {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_HomeButton {
+  width: 140px;
+}
+
+#Public_Navigation_Left_HomeButton {
+  height: 40px;
+}
+
+#Public_Navigation_Left_HomeButton {
+  z-index: 1;
+}
+
+#Public_Navigation_Left_HomeButton span {
+  font-size: 18px;
+}
+
+#Public_Navigation_Left_RunProgram_button {
+  top: 220px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_RunProgram_button {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_RunProgram_button {
+  width: 140px;
+}
+
+#Public_Navigation_Left_RunProgram_button {
+  height: 40px;
+}
+
+#Public_Navigation_Left_RunProgram_button {
+  z-index: 2;
+}
+
+#Public_Navigation_Left_RunProgram_button span {
+  font-size: 18px;
+}
+
+#Public_Navigation_Left_InterruptButton {
+  top: 320px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_InterruptButton {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_InterruptButton {
+  width: 140px;
+}
+
+#Public_Navigation_Left_InterruptButton {
+  height: 40px;
+}
+
+#Public_Navigation_Left_InterruptButton {
+  z-index: 3;
+}
+
+#Public_Navigation_Left_InterruptButton span {
+  font-size: 18px;
+}
+
+#Public_Navigation_Left_ContinueButton {
+  top: 420px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_ContinueButton {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_ContinueButton {
+  width: 140px;
+}
+
+#Public_Navigation_Left_ContinueButton {
+  height: 40px;
+}
+
+#Public_Navigation_Left_ContinueButton {
+  z-index: 4;
+}
+
+#Public_Navigation_Left_ContinueButton span {
+  font-size: 18px;
+}
+
+#Public_Navigation_Left_SingleChangeButton {
+  top: 520px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_SingleChangeButton {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Left_SingleChangeButton {
+  width: 140px;
+}
+
+#Public_Navigation_Left_SingleChangeButton {
+  height: 40px;
+}
+
+#Public_Navigation_Left_SingleChangeButton {
+  z-index: 5;
+}
+
+#Public_Navigation_Left_SingleChangeButton span {
+  font-size: 18px;
+}

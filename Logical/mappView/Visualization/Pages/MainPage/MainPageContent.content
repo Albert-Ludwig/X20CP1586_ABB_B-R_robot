@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_MainPageContent" height="840" width="1330" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="X_val" top="80" left="140" width="140" zIndex="0" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Position_text" top="20" left="40" width="120" zIndex="1" value="$IAT/position" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="X" top="80" left="80" width="40" zIndex="2" value="X:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Y" top="140" left="80" width="40" zIndex="3" value="Y:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Z" top="200" left="80" width="40" zIndex="4" value="Z:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="A" top="260" left="80" width="40" zIndex="5" value="A:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="B" top="320" left="80" width="40" zIndex="6" value="B:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="C" top="380" left="80" width="40" zIndex="7" value="C:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Q1" top="80" left="340" width="60" zIndex="8" value="Q1:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Q2" top="140" left="340" width="60" zIndex="9" value="Q2:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Q3" top="200" left="340" width="60" zIndex="10" value="Q3:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Q4" top="260" left="340" width="60" zIndex="11" value="Q4:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Q5" top="320" left="340" width="60" zIndex="12" value="Q5:" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Q6" top="380" left="340" width="60" zIndex="13" value="Q6:" backColor="rgba(255, 255, 255, 0)" textColor="rgba(71, 71, 71, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Z_val" top="200" left="140" width="140" zIndex="14" unit="{'metric':'MMT','imperial':'INH','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Y_val" top="140" left="140" width="140" zIndex="15" unit="{'metric':'MMT','imperial':'INH','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="A_val" top="260" left="140" width="140" zIndex="16" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="C_val" top="380" left="140" width="140" zIndex="17" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="B_val" top="320" left="140" width="140" zIndex="18" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Q1_val" top="80" left="400" width="140" zIndex="19" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Q2_val" top="140" left="400" width="140" zIndex="20" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Q3_val" top="200" left="400" width="140" zIndex="21" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="A_val4" top="260" left="400" width="140" zIndex="22" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Q5_val" top="320" left="400" width="140" zIndex="23" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Q6_val" top="380" left="400" width="140" zIndex="24" unit="{'metric':'DD','imperial':'C81','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Program_monitor" top="460" left="40" width="220" zIndex="25" value="$IAT/Program_monitoring" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Second_Last" top="520" left="60" width="600" zIndex="26" value="Second_Last" backColor="rgba(255, 255, 255, 0)" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Last" top="560" left="60" width="600" zIndex="27" value="Last" backColor="rgba(255, 255, 255, 0)" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Current" top="600" left="60" width="600" zIndex="28" value="Current" backColor="rgba(255, 140, 0, 1)" textAlign="center" bold="true" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Next" top="640" left="60" width="600" zIndex="29" value="Next" backColor="rgba(255, 255, 255, 0)" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Second_Next" top="680" left="60" width="600" zIndex="30" value="Second_Next" backColor="rgba(255, 255, 255, 0)" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.Image" id="ProgramStatus" top="460" left="240" width="40" height="40" zIndex="31" image="Media/ProgramStatus.png" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="InformationDisplay" top="460" left="800" width="220" zIndex="32" value="$IAT/InformationDisplay" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="PathVel" top="540" left="840" width="140" zIndex="33" value="$IAT/PathVelocity" backColor="rgba(255, 255, 255, 0)" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="PathVelValue" top="540" left="1060" width="140" zIndex="34" unit="{'metric':'MTS','imperial':'2M','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="LineNumber" top="600" left="840" width="140" zIndex="35" value="$IAT/LineNumber" backColor="rgba(255, 255, 255, 0)" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Line_Number" top="600" left="1060" width="140" zIndex="36" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="StateNumber" top="660" left="840" width="140" zIndex="37" value="$IAT/StateNumber" backColor="rgba(255, 255, 255, 0)" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Line_Number1" top="660" left="1060" width="140" zIndex="38" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="OverallTime" top="60" left="680" width="160" zIndex="39" value="$IAT/OverallTime" backColor="rgba(255, 255, 255, 0)" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="PathVelValue1" top="60" left="880" width="140" zIndex="40" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="MovementTime" top="140" left="680" width="180" zIndex="41" value="$IAT/MovementTime" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="MovementRunTime" top="140" left="880" width="140" zIndex="42" unit="{'metric':'SEC','imperial':'SEC','imperial-us':'FAH'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="43" x1="0" x2="660" y1="440" y2="440" lineColor="rgba(0, 0, 128, 1)" lineWidth="4px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="44" x1="660" x2="660" y1="0" y2="440" lineColor="rgba(0, 0, 128, 1)" lineWidth="4px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="45" x1="640" x2="1340" y1="440" y2="440" lineColor="rgba(0, 0, 128, 1)" lineWidth="4px" />
+    <Widget xsi:type="widgets.brease.Image" id="Reference" top="0" left="1054" width="280" height="380" zIndex="46" image="Media/Robotics.jpg" />
+    <Widget xsi:type="widgets.brease.Line" id="Line4" zIndex="47" x1="0" x2="1320" y1="740" y2="740" lineColor="rgba(0, 0, 128, 1)" lineWidth="5px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="48" x1="780" x2="780" y1="440" y2="740" lineColor="rgba(0, 0, 128, 1)" lineWidth="5px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Message" top="760" left="40" width="1240" height="60" zIndex="49" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" />
+  </Widgets>
+</Content>

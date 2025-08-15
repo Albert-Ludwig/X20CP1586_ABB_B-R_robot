@@ -1,0 +1,113 @@
+#Setting_Main_Adjust_Time {
+  top: 160px;
+  position: absolute;
+}
+
+#Setting_Main_Adjust_Time {
+  left: 80px;
+  position: absolute;
+}
+
+#Setting_Main_Adjust_Time {
+  width: 120px;
+}
+
+#Setting_Main_Adjust_Time {
+  height: 60px;
+}
+
+#Setting_Main_Adjust_Time {
+  z-index: 0;
+}
+
+#Setting_Main_Adjust_Theme {
+  top: 160px;
+  position: absolute;
+}
+
+#Setting_Main_Adjust_Theme {
+  left: 300px;
+  position: absolute;
+}
+
+#Setting_Main_Adjust_Theme {
+  width: 120px;
+}
+
+#Setting_Main_Adjust_Theme {
+  height: 60px;
+}
+
+#Setting_Main_Adjust_Theme {
+  z-index: 1;
+}
+
+#Setting_Main_Documenttaion_button {
+  top: 160px;
+  position: absolute;
+}
+
+#Setting_Main_Documenttaion_button {
+  left: 520px;
+  position: absolute;
+}
+
+#Setting_Main_Documenttaion_button {
+  width: 120px;
+}
+
+#Setting_Main_Documenttaion_button {
+  height: 60px;
+}
+
+#Setting_Main_Documenttaion_button {
+  z-index: 2;
+}
+
+#Setting_Main_Unit_Language_button {
+  top: 160px;
+  position: absolute;
+}
+
+#Setting_Main_Unit_Language_button {
+  left: 740px;
+  position: absolute;
+}
+
+#Setting_Main_Unit_Language_button {
+  width: 120px;
+}
+
+#Setting_Main_Unit_Language_button {
+  height: 60px;
+}
+
+#Setting_Main_Unit_Language_button {
+  z-index: 3;
+}
+
+#Setting_Main_Unit_Language_button span {
+  font-size: 13px;
+}
+
+#Setting_Main_ProgramSelection {
+  top: 160px;
+  position: absolute;
+}
+
+#Setting_Main_ProgramSelection {
+  left: 960px;
+  position: absolute;
+}
+
+#Setting_Main_ProgramSelection {
+  width: 120px;
+}
+
+#Setting_Main_ProgramSelection {
+  height: 60px;
+}
+
+#Setting_Main_ProgramSelection {
+  z-index: 4;
+}

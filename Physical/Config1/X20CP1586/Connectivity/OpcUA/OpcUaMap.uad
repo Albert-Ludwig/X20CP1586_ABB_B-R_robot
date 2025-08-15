@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="J4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="Human_Comp">
+        <Variable Name="DTGetTime_01">
+          <Variable Name="enable" />
+          <Variable Name="status" />
+          <Variable Name="DT1" />
+        </Variable>
+        <Variable Name="DTSetTime_01">
+          <Variable Name="enable" />
+          <Variable Name="DT1" />
+          <Variable Name="status" />
+        </Variable>
+        <Variable Name="visDateTime" />
+        <Variable Name="visGetDateTime" />
+        <Variable Name="visSetDateTime" />
+        <Variable Name="visSetDT" />
+      </Task>
+      <Task Name="Robotics">
+        <Variable Name="fbMy6Axis">
+          <Variable Name="Info">
+            <Variable Name="JointAxisPosition" RecursiveEnable="2" />
+            <Variable Name="Program">
+              <Variable Name="ProgramMonitor">
+                <Variable Name="BlockMonitor">
+                  <Variable Name="SecondLast" />
+                  <Variable Name="Last" />
+                  <Variable Name="Current" />
+                  <Variable Name="Next" />
+                  <Variable Name="SecondNext" />
+                </Variable>
+                <Variable Name="LineNumber" />
+                <Variable Name="BlockNumber" />
+                <Variable Name="MovementRuntime" />
+                <Variable Name="OverallRuntime" />
+              </Variable>
+              <Variable Name="CurrentProgram" />
+            </Variable>
+            <Variable Name="Path">
+              <Variable Name="CurrentPathVelocity" />
+            </Variable>
+          </Variable>
+          <Variable Name="A" />
+          <Variable Name="B" />
+          <Variable Name="C" />
+          <Variable Name="Z" />
+          <Variable Name="Y" />
+          <Variable Name="X" />
+          <Variable Name="Error" />
+          <Variable Name="StatusID" />
+          <Variable Name="Power" />
+          <Variable Name="Home" />
+          <Variable Name="MoveProgram" />
+          <Variable Name="Stop" />
+          <Variable Name="MoveDirect" />
+          <Variable Name="Continue" />
+          <Variable Name="Interrupt" />
+          <Variable Name="SingleStepActive" />
+          <Variable Name="ErrorReset" />
+          <Variable Name="InMotion" />
+          <Variable Name="SingleStep" />
+          <Variable Name="MoveDone" />
+          <Variable Name="IsHomed" />
+          <Variable Name="PowerOn" />
+          <Variable Name="PathVelocity" />
+          <Variable Name="Enable" />
+          <Variable Name="Override" />
+        </Variable>
+        <Variable Name="My6Axis_Par">
+          <Variable Name="Position" RecursiveEnable="2" />
+          <Variable Name="Distance" />
+          <Variable Name="CoordSystem" />
+          <Variable Name="Acceleration" />
+          <Variable Name="Deceleration" />
+          <Variable Name="ProgramName" />
+          <Variable Name="ManualMoveType" />
+          <Variable Name="Velocity" />
+        </Variable>
+        <Variable Name="HomeButton" RecursiveEnable="2" />
+        <Variable Name="SingleStepButton" RecursiveEnable="2" />
+        <Variable Name="RunButton" RecursiveEnable="2" />
+        <Variable Name="PowerButton" RecursiveEnable="2" />
+        <Variable Name="InterruptButton" RecursiveEnable="2" />
+        <Variable Name="ContinueButton" RecursiveEnable="2" />
+        <Variable Name="SettingButton" RecursiveEnable="2" />
+        <Variable Name="ServiceButton" RecursiveEnable="2" />
+        <Variable Name="ManualButton" RecursiveEnable="2" />
+        <Variable Name="LogInButton" RecursiveEnable="2" />
+        <Variable Name="CurrentPage" />
+        <Variable Name="Message" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

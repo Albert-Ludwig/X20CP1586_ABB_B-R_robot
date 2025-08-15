@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="MainPageContent2" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+  
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.StatusID" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainPageContent2" widgetRefId="Status_ID_number" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Error" attribute="value" />
+<Target xsi:type="brease" contentRefId="MainPageContent2" widgetRefId="Error_state_number" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

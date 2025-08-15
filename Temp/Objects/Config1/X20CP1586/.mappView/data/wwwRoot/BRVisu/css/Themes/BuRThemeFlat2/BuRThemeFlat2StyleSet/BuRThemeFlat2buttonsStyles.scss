@@ -1,0 +1,931 @@
+﻿@import "mixins.scss";
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_transparent {
+@include widgets_brease_Button_base; 
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.disabled) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #b4b4b4;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #ff9900;
+}
+&.checked:not(.disabled) span {
+	color: #ff9900;
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Command {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #d6d6d6;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 1px 1px 1px 1px;
+}
+&.disabled {
+	border-width: 1px 1px 1px 1px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	border-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 1px 1px 1px 1px;
+}
+&.checked:not(.disabled) {
+	border-width: 1px 1px 1px 1px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: #ff9900;
+}
+&.checked:not(.disabled) {
+	border-color: #ff9900;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #ff9900;
+}
+&.checked:not(.disabled) {
+	background-color: #ff9900;
+}
+&.disabled {
+	background-color: #d1d1d1;
+}
+&.disabled.active {
+	background-color: #d1d1d1;
+}
+&.disabled.checked {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Command1 {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #d6d6d6;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 1px 1px 1px 1px;
+}
+&.disabled {
+	border-width: 1px 1px 1px 1px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 1px 1px 1px 1px;
+}
+&.checked:not(.disabled) {
+	border-width: 1px 1px 1px 1px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	border-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: #ff9900;
+}
+&.checked:not(.disabled) {
+	border-color: #ff9900;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #646464;
+}
+&.checked:not(.disabled) {
+	background-color: #646464;
+}
+&.disabled {
+	background-color: #d1d1d1;
+}
+&.disabled.active {
+	background-color: #d1d1d1;
+}
+&.disabled.checked {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Operate {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #ffffff;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 6px 0px 6px;
+}
+&.disabled {
+	border-width: 0px 6px 0px 6px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 6px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 6px 0px 6px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	border-color: #808080 #808080 #808080 #CCCCCC;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: #808080 #ff9900 #808080 #808080;
+}
+&.checked:not(.disabled) {
+	border-color: #808080 #ff9900 #808080 #808080;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #808080;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #808080;
+}
+&.checked:not(.disabled) {
+	background-color: #808080;
+}
+&.disabled {
+	background-color: #d1d1d1;
+}
+&.disabled.active {
+	background-color: #d1d1d1;
+}
+&.disabled.checked {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Operate1 {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #ffffff;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 6px 0px 6px;
+}
+&.disabled {
+	border-width: 0px 6px 0px 6px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 6px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 6px 0px 6px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	border-color: #808080 #808080 #808080 #CCCCCC;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: #808080 #39f #808080 #808080;
+}
+&.checked:not(.disabled) {
+	border-color: #808080 #39f #808080 #808080;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #808080;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #808080;
+}
+&.checked:not(.disabled) {
+	background-color: #808080;
+}
+&.disabled {
+	background-color: #d1d1d1;
+}
+&.disabled.active {
+	background-color: #d1d1d1;
+}
+&.disabled.checked {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/NavigationButton/meta/NavigationButton_base";
+.widgets_brease_NavigationButton_style_transparent {
+@include widgets_brease_NavigationButton_base; 
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #b4b4b4;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #ff9900;
+}
+&.checked:not(.disabled) span {
+	color: #ff9900;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_transparent {
+@include widgets_brease_ToggleButton_base; 
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #b4b4b4;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #ff9900;
+}
+&.checked:not(.disabled) span {
+	color: #ff9900;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: transparent;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Command {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 0;
+}
+&.disabled {
+	border-width: 0;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0;
+}
+&.checked:not(.disabled) {
+	border-width: 0;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #fff;
+}
+&.checked:not(.disabled) span {
+	color: #fff;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #ff9900;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #ff9900;
+}
+&.disabled:not(.checked) {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Command1 {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 0;
+}
+&.disabled {
+	border-width: 0;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0;
+}
+&.checked:not(.disabled) {
+	border-width: 0;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #fff;
+}
+&.checked:not(.disabled) span {
+	color: #fff;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #39f;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #39f;
+}
+&.disabled:not(.checked) {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Operate {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #ffffff;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 6px 0px 6px;
+}
+&.disabled {
+	border-width: 0px 6px 0px 6px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 6px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 6px 0px 6px;
+}
+&:not(.disabled):not(.checked) {
+	border-color: #808080 #808080 #808080 #CCCCCC;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: #808080 #ff9900 #808080 #808080;
+}
+&.checked:not(.active):not(.disabled) {
+	border-color: #808080 #ff9900 #808080 #808080;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #808080;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #808080;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #808080;
+}
+&.disabled:not(.checked) {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Operate1 {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #ffffff;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) span {
+	color: #d6d6d6;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 6px 0px 6px;
+}
+&.disabled {
+	border-width: 0px 6px 0px 6px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 6px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 6px 0px 6px;
+}
+&:not(.disabled):not(.checked) {
+	border-color: #808080 #808080 #808080 #CCCCCC;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: #808080 #39f #808080 #808080;
+}
+&.checked:not(.active):not(.disabled) {
+	border-color: #808080 #39f #808080 #808080;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #808080;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #808080;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #808080;
+}
+&.disabled:not(.checked) {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/ToggleSwitch/meta/ToggleSwitch_base";
+.widgets_brease_ToggleSwitch_style_Command {
+@include widgets_brease_ToggleSwitch_base; 
+.breaseToggleSwitch_toggle .wrapper .before {
+	font-size: 20px;
+}
+.breaseToggleSwitch_toggle .wrapper .after {
+	font-size: 20px;
+}
+.breaseToggleSwitch_toggle .wrapper .before {
+@include font-weight-bold(true);
+}
+.breaseToggleSwitch_toggle .wrapper .after {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+	color: #646464;
+}
+&:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+	color: #646464;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle .before {
+	color: #d6d6d6;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle .after {
+	color: #d6d6d6;
+}
+@include border-radius(0px);
+.breaseToggleSwitch_toggle {
+@include border-radius(0px - 2px);
+}
+&:not(.disabled) .breaseToggleSwitch_toggle {
+background-color: #808080;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 6px 0px 0px;
+}
+&.disabled {
+	border-width: 0px 6px 0px 0px;
+}
+&:not(.disabled):not(.checked) {
+	border-color: #808080;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 0px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 0px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-color: #808080;
+}
+&:not(.checked):not(.disabled) {
+background-color: #ccc;
+}
+&.active:not(.disabled) {
+background-color: #ccc;
+}
+&.checked:not(.disabled) {
+background-color: #39f;
+}
+&.disabled:not(.checked) {
+	background-color: #d1d1d1;
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListRight {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #d6d6d6;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #666;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #d6d6d6;
+}
+& > .ItemView.itemDisabled {
+	background-color: #d1d1d1;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #646464;
+}
+&.DropDownBoxView {
+@include border-radius(0px);
+}
+& > .ItemView {
+@include border-radius(0px);
+}
+& > .ListView.Container {
+@include border-radius(0px);
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #d6d6d6;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
+	color: #646464;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 6px 0px 0px;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 3px 0px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container {
+	border-color: #ff9900;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #fff;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+	background-color: #ff9900;
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(center);
+}
+& .TextView {
+@include text-alignment(center);
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListLeft {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #d6d6d6;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #666;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #d6d6d6;
+}
+& > .ItemView.itemDisabled {
+	background-color: #d1d1d1;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #646464;
+}
+&.DropDownBoxView {
+@include border-radius(0px);
+}
+& > .ItemView {
+@include border-radius(0px);
+}
+& > .ListView.Container {
+@include border-radius(0px);
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #d6d6d6;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
+	color: #646464;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 0px 0px 6px;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 0px 0px 3px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container {
+	border-color: #ff9900;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #fff;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+	background-color: #ff9900;
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(center);
+}
+& .TextView {
+@include text-alignment(center);
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListBottom {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #d6d6d6;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #666;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #d6d6d6;
+}
+& > .ItemView.itemDisabled {
+	background-color: #d1d1d1;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #646464;
+}
+&.DropDownBoxView {
+@include border-radius(0px);
+}
+& > .ItemView {
+@include border-radius(0px);
+}
+& > .ListView.Container {
+@include border-radius(0px);
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #d6d6d6;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
+	color: #646464;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 0px 6px 0px;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 0px 3px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container {
+	border-color: #ff9900;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #fff;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+	background-color: #ff9900;
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(center);
+}
+& .TextView {
+@include text-alignment(center);
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListTop {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #d6d6d6;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #666;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #d6d6d6;
+}
+& > .ItemView.itemDisabled {
+	background-color: #d1d1d1;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #646464;
+}
+&.DropDownBoxView {
+@include border-radius(0px);
+}
+& > .ItemView {
+@include border-radius(0px);
+}
+& > .ListView.Container {
+@include border-radius(0px);
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #d6d6d6;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
+	color: #646464;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 6px 0px 0px 0px;
+}
+& > .ItemView.itemSelected {
+	border-width: 3px 0px 0px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container {
+	border-color: #ff9900;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #ff9900;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #fff;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+	background-color: #ff9900;
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(center);
+}
+& .TextView {
+@include text-alignment(center);
+}
+
+}

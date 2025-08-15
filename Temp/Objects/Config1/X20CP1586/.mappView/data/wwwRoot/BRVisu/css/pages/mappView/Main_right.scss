@@ -1,0 +1,16 @@
+﻿@import "mixins.scss";
+#Main_right_NavigationButton1 {
+	@include elemAutoWidth(100);
+}
+#Main_right_NavigationButton1 {
+	@include elemAutoHeight(30);
+}
+#Main_right_NavigationButton1 {
+	@include elemTop(280);
+}
+#Main_right_NavigationButton1 {
+	@include elemLeft(20);
+}
+#Main_right_NavigationButton1 {
+		z-index: 0;
+}

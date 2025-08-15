@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.A" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_A_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.A" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_A_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.B" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_B_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.B" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_B_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.C" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_C_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.C" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_C_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[5]" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q6_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[5]" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q6_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[4]" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q5_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[4]" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q5_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[3]" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_A_val4" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[3]" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_A_val4" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[2]" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q3_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[2]" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q3_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[1]" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q2_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[1]" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q2_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[0]" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q1_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.JointAxisPosition[0]" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Q1_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.BlockMonitor.Last" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Last" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.BlockMonitor.Next" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Next" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.BlockMonitor.SecondNext" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Second_Next" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.BlockMonitor.SecondLast" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Second_Last" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.X" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_X_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.X" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_X_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Y" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Y_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Y" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Y_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Z" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Z_val" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Z" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Z_val" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.PathVelocity" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_PathVelValue" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.BlockMonitor.Current" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_MainPageContent_Current" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="public_navigation_up">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:CurrentPage" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="public_navigation_up_CurrentPage" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

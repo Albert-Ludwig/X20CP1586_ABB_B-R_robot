@@ -1,0 +1,1065 @@
+﻿@import "mixins.scss";
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_transparent {
+@include widgets_brease_Button_base; 
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.disabled) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #000000;
+}
+&.checked:not(.disabled) span {
+	color: #000000;
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Command {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #3388CC;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #FF8500;
+}
+&.checked:not(.disabled) {
+	background-color: #FF8500;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+&.checked:not(.disabled) {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Command1 {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #3388CC;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #3388CC;
+}
+&.checked:not(.disabled) {
+	background-color: #3388CC;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 14px 0px rgba(5, 112, 193, 0.75));
+}
+&.checked:not(.disabled) {
+@include box-shadow(1px 1px 14px 0px rgba(5, 112, 193, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Operate {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #F6F6F6;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #FF8500;
+}
+&.checked:not(.disabled) {
+	background-color: #FF8500;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+&.checked:not(.disabled) {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_Operate1 {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #F6F6F6;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #3388CC;
+}
+&.checked:not(.disabled) {
+	background-color: #3388CC;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+&.checked:not(.disabled) {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/Button/meta/Button_base";
+.widgets_brease_Button_style_defaultSmall {
+@include widgets_brease_Button_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #000000;
+}
+&.checked:not(.disabled) span {
+	color: #000000;
+}
+@include border-radius(2px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #F6F6F6;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #EDEDED;
+}
+&.checked:not(.disabled) {
+	background-color: #EDEDED;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+&.checked:not(.disabled) {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/NavigationButton/meta/NavigationButton_base";
+.widgets_brease_NavigationButton_style_transparent {
+@include widgets_brease_NavigationButton_base; 
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_transparent {
+@include widgets_brease_ToggleButton_base; 
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #000000;
+}
+&.checked:not(.disabled) span {
+	color: #000000;
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Command {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #3388CC;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #FF8500;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #FF8500;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+&.checked {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Command1 {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #3388CC;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #3388CC;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #3388CC;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 14px 0px rgba(5, 112, 193, 0.75));
+}
+&.checked {
+@include box-shadow(1px 1px 14px 0px rgba(5, 112, 193, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 14px 0px rgba(5, 112, 193, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Operate {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #F6F6F6;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #FF8500;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #FF8500;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+&.checked {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_Operate1 {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) span {
+	color: #FFFFFF;
+}
+@include border-radius(5px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #F6F6F6;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #3388CC;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #3388CC;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+&.checked {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/ToggleButton/meta/ToggleButton_base";
+.widgets_brease_ToggleButton_style_defaultSmall {
+@include widgets_brease_ToggleButton_base; 
+span {
+	font-size: 16px;
+}
+span {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: #000000;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: #000000;
+}
+&.checked:not(.disabled) span {
+	color: #000000;
+}
+@include border-radius(2px);
+&:not(.active):not(.checked) {
+	border-width: 0px;
+}
+&.disabled {
+	border-width: 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: #F6F6F6;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: #EDEDED;
+}
+&.checked:not(.active):not(.disabled) {
+	background-color: #EDEDED;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+&.checked {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/ToggleSwitch/meta/ToggleSwitch_base";
+.widgets_brease_ToggleSwitch_style_Command {
+@include widgets_brease_ToggleSwitch_base; 
+.breaseToggleSwitch_toggle .wrapper .before {
+	font-size: 20px;
+}
+.breaseToggleSwitch_toggle .wrapper .after {
+	font-size: 20px;
+}
+.breaseToggleSwitch_toggle .wrapper .before {
+@include font-weight-bold(true);
+}
+.breaseToggleSwitch_toggle .wrapper .after {
+@include font-weight-bold(true);
+}
+&:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+	color: #000000;
+}
+&:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+	color: #000000;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle .before {
+	color: #FFFFFF;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle .after {
+	color: #FFFFFF;
+}
+@include border-radius(4px);
+.breaseToggleSwitch_toggle {
+@include border-radius(4px - 2px);
+}
+&:not(.disabled) .breaseToggleSwitch_toggle {
+background-color: #FFFFFF;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 0px 0px 0px;
+}
+&.disabled {
+	border-width: 0px 0px 0px 0px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 0px 0px 0px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 0px 0px 0px;
+}
+&:not(.checked):not(.disabled) {
+background-color: #EDEDED;
+}
+&.active:not(.disabled) {
+background-color: #EDEDED;
+}
+&.checked:not(.disabled) {
+background-color: #FF8500;
+}
+&:not(.active):not(.checked) {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.active {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(58, 58, 58, 0.75));
+}
+&.active:not(.disabled):not(.editMode) {
+@include box-shadow(1px 1px 8px 0px rgba(255, 113, 0, 0.75));
+}
+&.checked {
+@include box-shadow(1px 1px 8px 0px rgba(255, 113, 0, 0.75));
+}
+&.disabled.checked {
+@include box-shadow(1px 1px 8px 0px rgba(255, 113, 0, 0.75));
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListRight {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #000000;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #000000;
+}
+&.DropDownBoxView {
+@include border-radius(5px);
+}
+& > .ItemView {
+@include border-radius(5px);
+}
+& > .ListView.Container {
+@include border-radius(5px);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #F6F6F6;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #EDEDED;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 2px 0px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #F6F6F6;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 5px 0px 0px;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #FFFFFF;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+@include backGroundGradient('linear-gradient(to bottom,#3388CC 0%,#3388CC 100%)');
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(left);
+}
+& .TextView {
+@include text-alignment(left);
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListLeft {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #000000;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #000000;
+}
+&.DropDownBoxView {
+@include border-radius(5px);
+}
+& > .ItemView {
+@include border-radius(5px);
+}
+& > .ListView.Container {
+@include border-radius(5px);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #F6F6F6;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #EDEDED;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 2px 0px 2px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #F6F6F6;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 0px 0px 5px;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #FFFFFF;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+@include backGroundGradient('linear-gradient(to bottom,#3388CC 0%,#3388CC 100%)');
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(left);
+}
+& .TextView {
+@include text-alignment(left);
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListBottom {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #000000;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #000000;
+}
+&.DropDownBoxView {
+@include border-radius(5px);
+}
+& > .ItemView {
+@include border-radius(5px);
+}
+& > .ListView.Container {
+@include border-radius(5px);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #F6F6F6;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #EDEDED;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 0px 2px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #F6F6F6;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 0px 4px 0px;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #FFFFFF;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+@include backGroundGradient('linear-gradient(to bottom,#3388CC 0%,#3388CC 100%)');
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(left);
+}
+& .TextView {
+@include text-alignment(left);
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_ListTop {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #000000;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #000000;
+}
+&.DropDownBoxView {
+@include border-radius(5px);
+}
+& > .ItemView {
+@include border-radius(5px);
+}
+& > .ListView.Container {
+@include border-radius(5px);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #F6F6F6;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #EDEDED;
+}
+& > .ItemView.itemSelected {
+	border-width: 2px 0px 0px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #F6F6F6;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 4px 0px 0px 0px;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #3388CC;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #FFFFFF;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+@include backGroundGradient('linear-gradient(to bottom,#3388CC 0%,#3388CC 100%)');
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(left);
+}
+& .TextView {
+@include text-alignment(left);
+}
+
+}

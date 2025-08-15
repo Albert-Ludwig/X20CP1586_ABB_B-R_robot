@@ -1,0 +1,330 @@
+﻿@import "mixins.scss";
+#public_navigation_up_Time_display {
+	@include elemTop(0);
+}
+#public_navigation_up_Time_display {
+	@include elemLeft(1300);
+}
+#public_navigation_up_Time_display {
+	@include elemAutoWidth(300);
+}
+#public_navigation_up_Time_display {
+	@include elemAutoHeight(60);
+}
+#public_navigation_up_Time_display {
+		z-index: 0;
+}
+#public_navigation_up_Time_display {
+		background-color: rgba(70, 130, 180, 1);
+}
+#public_navigation_up_Time_display {
+	& span{
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#public_navigation_up_Time_display {
+	@include text-alignment(center);
+}
+#public_navigation_up_ErrorState {
+	@include elemTop(12);
+}
+#public_navigation_up_ErrorState {
+	@include elemLeft(1120);
+}
+#public_navigation_up_ErrorState {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_ErrorState {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_ErrorState {
+		z-index: 1;
+}
+#public_navigation_up_ErrorState {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_Run {
+	@include elemTop(13);
+}
+#public_navigation_up_Run {
+	@include elemLeft(1240);
+}
+#public_navigation_up_Run {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_Run {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_Run {
+		z-index: 2;
+}
+#public_navigation_up_Run {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_Pause {
+	@include elemTop(13);
+}
+#public_navigation_up_Pause {
+	@include elemLeft(1240);
+}
+#public_navigation_up_Pause {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_Pause {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_Pause {
+		z-index: 3;
+}
+#public_navigation_up_Pause {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_Stop {
+	@include elemTop(12);
+}
+#public_navigation_up_Stop {
+	@include elemLeft(1240);
+}
+#public_navigation_up_Stop {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_Stop {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_Stop {
+		z-index: 4;
+}
+#public_navigation_up_Stop {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_EnableTrue {
+	@include elemTop(12);
+}
+#public_navigation_up_EnableTrue {
+	@include elemLeft(20);
+}
+#public_navigation_up_EnableTrue {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_EnableTrue {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_EnableTrue {
+		z-index: 5;
+}
+#public_navigation_up_EnableTrue {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_EnableFalse {
+	@include elemTop(12);
+}
+#public_navigation_up_EnableFalse {
+	@include elemLeft(20);
+}
+#public_navigation_up_EnableFalse {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_EnableFalse {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_EnableFalse {
+		z-index: 6;
+}
+#public_navigation_up_EnableFalse {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_IsHomed {
+	@include elemTop(12);
+}
+#public_navigation_up_IsHomed {
+	@include elemLeft(1180);
+}
+#public_navigation_up_IsHomed {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_IsHomed {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_IsHomed {
+		z-index: 7;
+}
+#public_navigation_up_IsHomed {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_PowerOn {
+	@include elemTop(12);
+}
+#public_navigation_up_PowerOn {
+	@include elemLeft(80);
+}
+#public_navigation_up_PowerOn {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_PowerOn {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_PowerOn {
+		z-index: 8;
+}
+#public_navigation_up_PowerOn {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_PowerOff {
+	@include elemTop(12);
+}
+#public_navigation_up_PowerOff {
+	@include elemLeft(80);
+}
+#public_navigation_up_PowerOff {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_PowerOff {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_PowerOff {
+		z-index: 9;
+}
+#public_navigation_up_PowerOff {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_ProgramName {
+	@include elemTop(0);
+}
+#public_navigation_up_ProgramName {
+	@include elemLeft(660);
+}
+#public_navigation_up_ProgramName {
+	@include elemAutoWidth(280);
+}
+#public_navigation_up_ProgramName {
+	@include elemAutoHeight(60);
+}
+#public_navigation_up_ProgramName {
+		z-index: 10;
+}
+#public_navigation_up_ProgramName {
+		background-color: rgba(70, 130, 180, 1);
+}
+#public_navigation_up_ProgramName {
+	& span{
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#public_navigation_up_ProgramName {
+	@include text-alignment-all('center');
+}
+#public_navigation_up_ProgramName {
+		font-size: 18px;
+}
+#public_navigation_up_Continuous {
+	@include elemTop(12);
+}
+#public_navigation_up_Continuous {
+	@include elemLeft(1060);
+}
+#public_navigation_up_Continuous {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_Continuous {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_Continuous {
+		z-index: 11;
+}
+#public_navigation_up_Continuous {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_SingleStep {
+	@include elemTop(12);
+}
+#public_navigation_up_SingleStep {
+	@include elemLeft(1060);
+}
+#public_navigation_up_SingleStep {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_SingleStep {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_SingleStep {
+		z-index: 12;
+}
+#public_navigation_up_SingleStep {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_NoError {
+	@include elemTop(12);
+}
+#public_navigation_up_NoError {
+	@include elemLeft(1120);
+}
+#public_navigation_up_NoError {
+	@include elemAutoWidth(40);
+}
+#public_navigation_up_NoError {
+	@include elemAutoHeight(40);
+}
+#public_navigation_up_NoError {
+		z-index: 13;
+}
+#public_navigation_up_NoError {
+		background-color: rgba(255, 255, 255, 1);
+}
+#public_navigation_up_CurrentUser {
+	@include elemTop(0);
+}
+#public_navigation_up_CurrentUser {
+	@include elemLeft(160);
+}
+#public_navigation_up_CurrentUser {
+	@include elemAutoWidth(160);
+}
+#public_navigation_up_CurrentUser {
+	@include elemAutoHeight(60);
+}
+#public_navigation_up_CurrentUser {
+		z-index: 14;
+}
+#public_navigation_up_CurrentUser {
+		background-color: rgba(255, 255, 255, 0);
+}
+#public_navigation_up_CurrentUser {
+	& span{
+		color: rgba(0, 0, 128, 1);
+	}
+}
+#public_navigation_up_CurrentUser {
+	@include text-alignment-all('center');
+}
+#public_navigation_up_CurrentUser {
+		font-size: 18px;
+}
+#public_navigation_up_CurrentPage {
+	@include elemTop(0);
+}
+#public_navigation_up_CurrentPage {
+	@include elemLeft(360);
+}
+#public_navigation_up_CurrentPage {
+	@include elemAutoWidth(180);
+}
+#public_navigation_up_CurrentPage {
+	@include elemAutoHeight(60);
+}
+#public_navigation_up_CurrentPage {
+		z-index: 15;
+}
+#public_navigation_up_CurrentPage {
+		background-color: rgba(255, 255, 255, 0);
+}
+#public_navigation_up_CurrentPage {
+	& span{
+		color: rgba(0, 0, 128, 1);
+	}
+}
+#public_navigation_up_CurrentPage {
+	@include text-alignment-all('center');
+}
+#public_navigation_up_CurrentPage {
+		font-size: 18px;
+}

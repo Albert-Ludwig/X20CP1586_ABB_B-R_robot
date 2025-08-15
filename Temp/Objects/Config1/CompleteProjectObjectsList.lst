@@ -1,0 +1,1617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<Objects>
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133940833892954179" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Temp\Includes\AS_TempDecl\McElements.var"
+    LogicalPath="McElements.var"
+    Type="File"
+    LastWriteTime="133940830125301145"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133927019338287516"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133927019338287516"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133941898639068607" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133927019340161725" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133927019340021656"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133927019340161725"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133927019340161725"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133927019340951745" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133927019340806703"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133927019340951745"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133927019340951745"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133927019341587206" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133927019341587206"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133927019341587206"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133927019341587206"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133927019342457819" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133927019342432207"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133927019342457819"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133927019342457819"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsZip\binary.lby"
+    LogicalPath="Libraries.AsZip"
+    Type="Library"
+    LastWriteTime="133941876574132616" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsZip\AsZip.fun"
+    LogicalPath="Libraries.AsZip.AsZip.fun"
+    Type="File"
+    LastWriteTime="133941876574122601"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsZip\AsZip.typ"
+    LogicalPath="Libraries.AsZip.AsZip.typ"
+    Type="File"
+    LastWriteTime="133941876574122601"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\AsZip\AsZip.var"
+    LogicalPath="Libraries.AsZip.AsZip.var"
+    Type="File"
+    LastWriteTime="133941876574132616"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\FileIO\binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="133941876574233289" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="133941876574223018"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="133941876574223018"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="133941876574233289"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="133941883842290027" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="133941883842269921"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="133941883842269921"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="133941883842279928"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133941883842290027"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\CoTrace\binary.lby"
+    LogicalPath="Libraries.CoTrace"
+    Type="Library"
+    LastWriteTime="133941883894454679" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\CoTrace\CoTrace.fun"
+    LogicalPath="Libraries.CoTrace.CoTrace.fun"
+    Type="File"
+    LastWriteTime="133941883894440121"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\CoTrace\CoTrace.typ"
+    LogicalPath="Libraries.CoTrace.CoTrace.typ"
+    Type="File"
+    LastWriteTime="133941883894440121"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\CoTrace\CoTrace.var"
+    LogicalPath="Libraries.CoTrace.CoTrace.var"
+    Type="File"
+    LastWriteTime="133941883894454679"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAcpAx\binary.lby"
+    LogicalPath="Libraries.McAcpAx"
+    Type="Library"
+    LastWriteTime="133941898598146734" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAcpAx\McAcpAx.typ"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.typ"
+    Type="File"
+    LastWriteTime="133941898598116732"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAcpAx\McAcpAx.fun"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.fun"
+    Type="File"
+    LastWriteTime="133941898598126728"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAcpAx\McAcpAx.var"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.var"
+    Type="File"
+    LastWriteTime="133941898598126728"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAcpAx\McAcpAxCfg.typ"
+    LogicalPath="Libraries.McAcpAx.McAcpAxCfg.typ"
+    Type="File"
+    LastWriteTime="133941898598136739"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McPathGen\binary.lby"
+    LogicalPath="Libraries.McPathGen"
+    Type="Library"
+    LastWriteTime="133941898620602403" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McPathGen\McPathGen.typ"
+    LogicalPath="Libraries.McPathGen.McPathGen.typ"
+    Type="File"
+    LastWriteTime="133941898620572397"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McPathGen\McPathGen.fun"
+    LogicalPath="Libraries.McPathGen.McPathGen.fun"
+    Type="File"
+    LastWriteTime="133941898620582406"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McPathGen\McPathGen.var"
+    LogicalPath="Libraries.McPathGen.McPathGen.var"
+    Type="File"
+    LastWriteTime="133941898620592402"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McPathGen\McPathGenCfg.typ"
+    LogicalPath="Libraries.McPathGen.McPathGenCfg.typ"
+    Type="File"
+    LastWriteTime="133941898620602403"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxis\binary.lby"
+    LogicalPath="Libraries.McAxis"
+    Type="Library"
+    LastWriteTime="133941898621480708" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxis\McAxis.typ"
+    LogicalPath="Libraries.McAxis.McAxis.typ"
+    Type="File"
+    LastWriteTime="133941898621456982"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxis\McAxis.fun"
+    LogicalPath="Libraries.McAxis.McAxis.fun"
+    Type="File"
+    LastWriteTime="133941898621467535"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxis\McAxis.var"
+    LogicalPath="Libraries.McAxis.McAxis.var"
+    Type="File"
+    LastWriteTime="133941898621467535"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxis\McAxisCfg.typ"
+    LogicalPath="Libraries.McAxis.McAxisCfg.typ"
+    Type="File"
+    LastWriteTime="133941898621480708"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McProgInt\binary.lby"
+    LogicalPath="Libraries.McProgInt"
+    Type="Library"
+    LastWriteTime="133941898631463049" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McProgInt\McProgInt.typ"
+    LogicalPath="Libraries.McProgInt.McProgInt.typ"
+    Type="File"
+    LastWriteTime="133941898631428839"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McProgInt\McProgInt.fun"
+    LogicalPath="Libraries.McProgInt.McProgInt.fun"
+    Type="File"
+    LastWriteTime="133941898631428839"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McProgInt\McProgInt.var"
+    LogicalPath="Libraries.McProgInt.McProgInt.var"
+    Type="File"
+    LastWriteTime="133941898631439714"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McProgInt\McProgIntCfg.typ"
+    LogicalPath="Libraries.McProgInt.McProgIntCfg.typ"
+    Type="File"
+    LastWriteTime="133941898631452840"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McProgInt\McProgtIntUserConfig.zip"
+    LogicalPath="Libraries.McProgInt.McProgtIntUserConfig.zip"
+    Type="File"
+    LastWriteTime="133941898631452840"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpRobotics\binary.lby"
+    LogicalPath="Libraries.MpRobotics"
+    Type="Library"
+    LastWriteTime="133941898638201146" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpRobotics\MpRobotics.fun"
+    LogicalPath="Libraries.MpRobotics.MpRobotics.fun"
+    Type="File"
+    LastWriteTime="133941898638178660"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpRobotics\MpRobotics.typ"
+    LogicalPath="Libraries.MpRobotics.MpRobotics.typ"
+    Type="File"
+    LastWriteTime="133941898638188663"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\MpRobotics\MpRoboticsError.typ"
+    LogicalPath="Libraries.MpRobotics.MpRoboticsError.typ"
+    Type="File"
+    LastWriteTime="133941898638201146"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxGroup\binary.lby"
+    LogicalPath="Libraries.McAxGroup"
+    Type="Library"
+    LastWriteTime="133941898638367645" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxGroup\McAxGroup.typ"
+    LogicalPath="Libraries.McAxGroup.McAxGroup.typ"
+    Type="File"
+    LastWriteTime="133941898638344048"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxGroup\McAxGroup.fun"
+    LogicalPath="Libraries.McAxGroup.McAxGroup.fun"
+    Type="File"
+    LastWriteTime="133941898638354201"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxGroup\McAxGroup.var"
+    LogicalPath="Libraries.McAxGroup.McAxGroup.var"
+    Type="File"
+    LastWriteTime="133941898638367645"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McAxGroup\McAxGroupCfg.typ"
+    LogicalPath="Libraries.McAxGroup.McAxGroupCfg.typ"
+    Type="File"
+    LastWriteTime="133941898638367645"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McBase\binary.lby"
+    LogicalPath="Libraries.McBase"
+    Type="Library"
+    LastWriteTime="133941898638525873" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McBase\McBase.typ"
+    LogicalPath="Libraries.McBase.McBase.typ"
+    Type="File"
+    LastWriteTime="133941898638505312"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McBase\McBase.fun"
+    LogicalPath="Libraries.McBase.McBase.fun"
+    Type="File"
+    LastWriteTime="133941898638505312"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McBase\McBase.var"
+    LogicalPath="Libraries.McBase.McBase.var"
+    Type="File"
+    LastWriteTime="133941898638515899"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Libraries\McBase\McBaseCfg.typ"
+    LogicalPath="Libraries.McBase.McBaseCfg.typ"
+    Type="File"
+    LastWriteTime="133941898638525873"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="133927865401302408" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="133939300043464221" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Layouts\Landscape16_9.layout"
+    LogicalPath="mappView.Layouts.Landscape16_9.layout"
+    Type="File"
+    LastWriteTime="133927154853859877"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Layouts\PopUp.layout"
+    LogicalPath="mappView.Layouts.PopUp.layout"
+    Type="File"
+    LastWriteTime="133939300408188907"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="133927106810982429" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="133927106811127729" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133939325714867454" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Texts\LocalizableTexts.tmx"
+    LogicalPath="mappView.Resources.Texts.LocalizableTexts.tmx"
+    Type="File"
+    LastWriteTime="133976242860298042"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133939068439195581" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Snippets\LocalizableTexts.tmx"
+    LogicalPath="mappView.Resources.Snippets.LocalizableTexts.tmx"
+    Type="File"
+    LastWriteTime="133939068439156645"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="133927185687331884" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1"
+    Type="Package"
+    LastWriteTime="133927185456658115" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\BuRTheme1.theme"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.BuRTheme1.theme"
+    Type="File"
+    LastWriteTime="133927185456529544"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease"
+    Type="Package"
+    LastWriteTime="133927185456647510" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\BuRTheme1.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.BuRTheme1.stylesset"
+    Type="File"
+    LastWriteTime="133927185456549552"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133927185456549552"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.System.styles"
+    Type="File"
+    LastWriteTime="133927185456569565"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133927185456569565"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133927185456587522"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133927185456597500"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133927185456597500"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133927185456607505"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133927185456617519"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133927185456627512"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133927185456637512"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRTheme1\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133927185456647510"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1"
+    Type="Package"
+    LastWriteTime="133927185539178464" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\BuRThemeFlat1.theme"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.BuRThemeFlat1.theme"
+    Type="File"
+    LastWriteTime="133927185539048433"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease"
+    Type="Package"
+    LastWriteTime="133927185539178464" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\BuRThemeFlat1.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.BuRThemeFlat1.stylesset"
+    Type="File"
+    LastWriteTime="133927185539068439"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133927185539078441"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.System.styles"
+    Type="File"
+    LastWriteTime="133927185539088443"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133927185539098446"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133927185539108448"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133927185539118450"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133927185539128452"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133927185539138455"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133927185539148458"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133927185539148458"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133927185539158460"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133927185539168462"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2"
+    Type="Package"
+    LastWriteTime="133927185606574417" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\BuRThemeFlat2.theme"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.BuRThemeFlat2.theme"
+    Type="File"
+    LastWriteTime="133927185606438704"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease"
+    Type="Package"
+    LastWriteTime="133927185606562501" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\BuRThemeFlat2.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.BuRThemeFlat2.stylesset"
+    Type="File"
+    LastWriteTime="133927185606467939"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133927185606472982"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.System.styles"
+    Type="File"
+    LastWriteTime="133927185606486385"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133927185606496369"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133927185606496369"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133927185606507401"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133927185606517375"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133927185606530134"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133927185606540120"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133927185606551337"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133927185606551337"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133927185606562501"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray"
+    Type="Package"
+    LastWriteTime="133927185687321879" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\BuRThemeMobileGray.theme"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.BuRThemeMobileGray.theme"
+    Type="File"
+    LastWriteTime="133927185687201853"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease"
+    Type="Package"
+    LastWriteTime="133927185687321879" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\BuRThemeMobileGray.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.BuRThemeMobileGray.stylesset"
+    Type="File"
+    LastWriteTime="133927185687221861"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133927185687231860"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.System.styles"
+    Type="File"
+    LastWriteTime="133927185687241883"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133927185687251869"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133927185687261866"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133927185687271869"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133927185687271869"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133927185687281872"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133927185687291873"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133927185687301877"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133927185687311877"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Themes\BuRThemeMobileGray\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeMobileGray.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133927185687321879"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="133990183449418537" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Image_2.jpg"
+    LogicalPath="mappView.Resources.Media.Image_2.jpg"
+    Type="File"
+    LastWriteTime="133927898708992582"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Image_5.jpg"
+    LogicalPath="mappView.Resources.Media.Image_5.jpg"
+    Type="File"
+    LastWriteTime="133939321844150760"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\background.png"
+    LogicalPath="mappView.Resources.Media.background.png"
+    Type="File"
+    LastWriteTime="133940828280494815"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Main_background.png"
+    LogicalPath="mappView.Resources.Media.Main_background.png"
+    Type="File"
+    LastWriteTime="133941789220688269"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Pop_Up_background.png"
+    LogicalPath="mappView.Resources.Media.Pop_Up_background.png"
+    Type="File"
+    LastWriteTime="133941793922504640"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\GreenLight.png"
+    LogicalPath="mappView.Resources.Media.GreenLight.png"
+    Type="File"
+    LastWriteTime="133946096118049053"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\ProgramStatus.png"
+    LogicalPath="mappView.Resources.Media.ProgramStatus.png"
+    Type="File"
+    LastWriteTime="133946194224655728"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\RedLight.png"
+    LogicalPath="mappView.Resources.Media.RedLight.png"
+    Type="File"
+    LastWriteTime="133946206616207219"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Error.png"
+    LogicalPath="mappView.Resources.Media.Error.png"
+    Type="File"
+    LastWriteTime="133947038353440395"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Pause.png"
+    LogicalPath="mappView.Resources.Media.Pause.png"
+    Type="File"
+    LastWriteTime="133948603804590447"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Stop.png"
+    LogicalPath="mappView.Resources.Media.Stop.png"
+    Type="File"
+    LastWriteTime="133948603835622928"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Run.png"
+    LogicalPath="mappView.Resources.Media.Run.png"
+    Type="File"
+    LastWriteTime="133948604804173026"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\IsHomed.png"
+    LogicalPath="mappView.Resources.Media.IsHomed.png"
+    Type="File"
+    LastWriteTime="133948635489597290"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\PowerOff.png"
+    LogicalPath="mappView.Resources.Media.PowerOff.png"
+    Type="File"
+    LastWriteTime="133948688918073530"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\PowerOn.png"
+    LogicalPath="mappView.Resources.Media.PowerOn.png"
+    Type="File"
+    LastWriteTime="133948688918130129"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Continuous.png"
+    LogicalPath="mappView.Resources.Media.Continuous.png"
+    Type="File"
+    LastWriteTime="133948746501616668"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\SingleStep.png"
+    LogicalPath="mappView.Resources.Media.SingleStep.png"
+    Type="File"
+    LastWriteTime="133948746501752357"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\NoError.png"
+    LogicalPath="mappView.Resources.Media.NoError.png"
+    Type="File"
+    LastWriteTime="133948755133347411"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\Robotics.jpg"
+    LogicalPath="mappView.Resources.Media.Robotics.jpg"
+    Type="File"
+    LastWriteTime="133959988985571160"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Resources\Media\RobDoc.pdf"
+    LogicalPath="mappView.Resources.Media.RobDoc.pdf"
+    Type="File"
+    LastWriteTime="133990178918439327"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="133946820088677555" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="133938255826491209" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\AreaContents\Public_Navigation.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Public_Navigation.content"
+    Type="File"
+    LastWriteTime="133959955537385417"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\AreaContents\Public_Navigation_up.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Public_Navigation_up.content"
+    Type="File"
+    LastWriteTime="133959948161953017"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\AreaContents\Public_Navigation_Left.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Public_Navigation_Left.content"
+    Type="File"
+    LastWriteTime="133959968058164391"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\MainPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.MainPage"
+    Type="Package"
+    LastWriteTime="133927161674117785" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\MainPage\MainPageContent.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.MainPageContent.content"
+    Type="File"
+    LastWriteTime="133971055796487292"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\MainPage\Main.page"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Main.page"
+    Type="File"
+    LastWriteTime="133941790205361562"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\MainPage\Right.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Right.content"
+    Type="File"
+    LastWriteTime="133927170710968587"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\MainPage\Left.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Left.content"
+    Type="File"
+    LastWriteTime="133927168765732867"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\MainPage\Up.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Up.content"
+    Type="File"
+    LastWriteTime="133927168766224262"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\SerivcePage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.SerivcePage"
+    Type="Package"
+    LastWriteTime="133927163021042124" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\SerivcePage\Sevice.page"
+    LogicalPath="mappView.Visualization.Pages.SerivcePage.Sevice.page"
+    Type="File"
+    LastWriteTime="133941790407576655"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\SerivcePage\MainPageContent2.content"
+    LogicalPath="mappView.Visualization.Pages.SerivcePage.MainPageContent2.content"
+    Type="File"
+    LastWriteTime="133958111512172299"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\SerivcePage\Right1.content"
+    LogicalPath="mappView.Visualization.Pages.SerivcePage.Right1.content"
+    Type="File"
+    LastWriteTime="133927167544458980"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\SerivcePage\Left1.content"
+    LogicalPath="mappView.Visualization.Pages.SerivcePage.Left1.content"
+    Type="File"
+    LastWriteTime="133927164160379428"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\SerivcePage\Up1.content"
+    LogicalPath="mappView.Visualization.Pages.SerivcePage.Up1.content"
+    Type="File"
+    LastWriteTime="133927164161285233"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\LogInPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.LogInPage"
+    Type="Package"
+    LastWriteTime="133928050810184178" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\LogInPage\LogIn_Page.page"
+    LogicalPath="mappView.Visualization.Pages.LogInPage.LogIn_Page.page"
+    Type="File"
+    LastWriteTime="133941796085023145"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\LogInPage\Login.content"
+    LogicalPath="mappView.Visualization.Pages.LogInPage.Login.content"
+    Type="File"
+    LastWriteTime="133963279393221971"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\LogInPage\Left2.content"
+    LogicalPath="mappView.Visualization.Pages.LogInPage.Left2.content"
+    Type="File"
+    LastWriteTime="133928050617922823"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\LogInPage\Right_2.content"
+    LogicalPath="mappView.Visualization.Pages.LogInPage.Right_2.content"
+    Type="File"
+    LastWriteTime="133928050618471181"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\LogInPage\Up_2.content"
+    LogicalPath="mappView.Visualization.Pages.LogInPage.Up_2.content"
+    Type="File"
+    LastWriteTime="133928051063990588"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Documentation_Page\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Documentation_Page"
+    Type="Package"
+    LastWriteTime="133930620963730054" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Documentation_Page\Documentation.page"
+    LogicalPath="mappView.Visualization.Pages.Documentation_Page.Documentation.page"
+    Type="File"
+    LastWriteTime="133941844450624754"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Documentation_Page\Doc_main.content"
+    LogicalPath="mappView.Visualization.Pages.Documentation_Page.Doc_main.content"
+    Type="File"
+    LastWriteTime="133990223513767356"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Documentation_Page\Doc_Up.content"
+    LogicalPath="mappView.Visualization.Pages.Documentation_Page.Doc_Up.content"
+    Type="File"
+    LastWriteTime="133930621411258799"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Documentation_Page\Doc_right.content"
+    LogicalPath="mappView.Visualization.Pages.Documentation_Page.Doc_right.content"
+    Type="File"
+    LastWriteTime="133930621813663360"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Documentation_Page\Doc_left.content"
+    LogicalPath="mappView.Visualization.Pages.Documentation_Page.Doc_left.content"
+    Type="File"
+    LastWriteTime="133930622042478799"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Setting_Page\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Setting_Page"
+    Type="Package"
+    LastWriteTime="133939289056507316" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Setting_Page\Setting_Main.page"
+    LogicalPath="mappView.Visualization.Pages.Setting_Page.Setting_Main.page"
+    Type="File"
+    LastWriteTime="133941845197511010"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Setting_Page\Setting_Main.content"
+    LogicalPath="mappView.Visualization.Pages.Setting_Page.Setting_Main.content"
+    Type="File"
+    LastWriteTime="133958201185293929"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Adjust_Time\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Adjust_Time"
+    Type="Package"
+    LastWriteTime="133939298430404755" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Adjust_Time\TimeAdjust.page"
+    LogicalPath="mappView.Visualization.Pages.Adjust_Time.TimeAdjust.page"
+    Type="File"
+    LastWriteTime="133941794199090727"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Adjust_Time\TimeAdjust_Main.content"
+    LogicalPath="mappView.Visualization.Pages.Adjust_Time.TimeAdjust_Main.content"
+    Type="File"
+    LastWriteTime="133945340380668836"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Adjust_Theme\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Adjust_Theme"
+    Type="Package"
+    LastWriteTime="133939930102844686" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Adjust_Theme\AjustTheme.page"
+    LogicalPath="mappView.Visualization.Pages.Adjust_Theme.AjustTheme.page"
+    Type="File"
+    LastWriteTime="133941794341811021"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Adjust_Theme\AjustTheme_Main.content"
+    LogicalPath="mappView.Visualization.Pages.Adjust_Theme.AjustTheme_Main.content"
+    Type="File"
+    LastWriteTime="133939935473257918"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Manual_Mode_Page\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Manual_Mode_Page"
+    Type="Package"
+    LastWriteTime="133941839079016696" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Manual_Mode_Page\Manual_Main.page"
+    LogicalPath="mappView.Visualization.Pages.Manual_Mode_Page.Manual_Main.page"
+    Type="File"
+    LastWriteTime="133945103776695843"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Manual_Mode_Page\Manual_Main_content.content"
+    LogicalPath="mappView.Visualization.Pages.Manual_Mode_Page.Manual_Main_content.content"
+    Type="File"
+    LastWriteTime="133957402014789372"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Unit_Language_setting\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Unit_Language_setting"
+    Type="Package"
+    LastWriteTime="133942584419605930" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Unit_Language_setting\Unit_Language_Main.page"
+    LogicalPath="mappView.Visualization.Pages.Unit_Language_setting.Unit_Language_Main.page"
+    Type="File"
+    LastWriteTime="133942600224985130"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Unit_Language_setting\Unit_Language_content.content"
+    LogicalPath="mappView.Visualization.Pages.Unit_Language_setting.Unit_Language_content.content"
+    Type="File"
+    LastWriteTime="133945127409581262"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Program_Selection\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Program_Selection"
+    Type="Package"
+    LastWriteTime="133946820900376966" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Program_Selection\ProgramSelection.page"
+    LogicalPath="mappView.Visualization.Pages.Program_Selection.ProgramSelection.page"
+    Type="File"
+    LastWriteTime="133946835822013778"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Pages\Program_Selection\ProgramMain.content"
+    LogicalPath="mappView.Visualization.Pages.Program_Selection.ProgramMain.content"
+    Type="File"
+    LastWriteTime="133946828657217543"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="133927127140650690" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133927107551212440" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\mappView\Project.language"
+    LogicalPath="mappView.Project.language"
+    Type="File"
+    LastWriteTime="133927868703725612"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Robotics\IEC.prg"
+    LogicalPath="Robotics"
+    Type="Program"
+    LastWriteTime="133940795351040419" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Robotics\Main.st"
+    LogicalPath="Robotics.Main.st"
+    Type="File"
+    LastWriteTime="133987472174519272"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Robotics\Types.typ"
+    LogicalPath="Robotics.Types.typ"
+    Type="File"
+    LastWriteTime="133951403091861202"
+    Private="true" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Robotics\Variables.var"
+    LogicalPath="Robotics.Variables.var"
+    Type="File"
+    LastWriteTime="133990202460546682"
+    Private="true" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Human_Computer\IEC.prg"
+    LogicalPath="Human_Computer"
+    Type="Program"
+    LastWriteTime="133940833718093771" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Human_Computer\Main.st"
+    LogicalPath="Human_Computer.Main.st"
+    Type="File"
+    LastWriteTime="133969519151507013"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Human_Computer\Types.typ"
+    LogicalPath="Human_Computer.Types.typ"
+    Type="File"
+    LastWriteTime="133940833718083768"
+    Private="true" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Logical\Human_Computer\Variables.var"
+    LogicalPath="Human_Computer.Variables.var"
+    Type="File"
+    LastWriteTime="133969519221363355"
+    Private="true" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133927019357973109" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133990176314927404"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133927029619091578"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Cpu.pkg"
+    LogicalPath="Config1.X20CP1586"
+    Type="Cpu"
+    LastWriteTime="133990221944948355" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Cpu.sw"
+    LogicalPath="Config1.X20CP1586.Cpu.sw"
+    Type="File"
+    LastWriteTime="133941876574973717"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Cpu.per"
+    LogicalPath="Config1.X20CP1586.Cpu.per"
+    Type="File"
+    LastWriteTime="133927019345209063"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\IoMap.iom"
+    LogicalPath="Config1.X20CP1586.IoMap.iom"
+    Type="File"
+    LastWriteTime="133927019345209063"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\PvMap.vvm"
+    LogicalPath="Config1.X20CP1586.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133927019345209063"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity"
+    Type="Package"
+    LastWriteTime="133927019345477021" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133927892705348370" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="133969519603674424"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Connectivity\OpcUA\OpcUa.uanodeset"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA.OpcUa.uanodeset"
+    Type="File"
+    LastWriteTime="133927892527932850"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133927019345477021" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.TextSystem"
+    Type="Package"
+    LastWriteTime="133927868354748442" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\TextSystem\TC.textconfig"
+    LogicalPath="Config1.X20CP1586.TextSystem.TC.textconfig"
+    Type="File"
+    LastWriteTime="133939112644441806"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.UnitSystem"
+    Type="Package"
+    LastWriteTime="133927019345527608" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133927019345705527" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133927019345542104" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133928021984805666"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133928022875041779"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133927019345667739" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133927019345621011" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133927019345609806" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133927019345621011" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133927019345644940" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133927019345644940" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133927019345644940" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133927019345667739" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133927019345685809" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133927019345705527" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133927019345705527"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappView"
+    Type="Package"
+    LastWriteTime="133963443813026434" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\Config.mappviewcfg"
+    LogicalPath="Config1.X20CP1586.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="133939277830224936"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\Visualizat.vis"
+    LogicalPath="Config1.X20CP1586.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="133946825717500683"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\EventBinding.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.EventBinding.eventbinding"
+    Type="File"
+    LastWriteTime="133959968057674273"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\public_navigation_up.binding"
+    LogicalPath="Config1.X20CP1586.mappView.public_navigation_up.binding"
+    Type="File"
+    LastWriteTime="133969519759650336"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\Time_Adjust.binding"
+    LogicalPath="Config1.X20CP1586.mappView.Time_Adjust.binding"
+    Type="File"
+    LastWriteTime="133941940436027207"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\MainPageContent2.binding"
+    LogicalPath="Config1.X20CP1586.mappView.MainPageContent2.binding"
+    Type="File"
+    LastWriteTime="133941893067953043"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\MainPageContent1.binding"
+    LogicalPath="Config1.X20CP1586.mappView.MainPageContent1.binding"
+    Type="File"
+    LastWriteTime="133957409194970681"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\public_navigation_Left_binding.binding"
+    LogicalPath="Config1.X20CP1586.mappView.public_navigation_Left_binding.binding"
+    Type="File"
+    LastWriteTime="133942651527450266"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\Manual_values.binding"
+    LogicalPath="Config1.X20CP1586.mappView.Manual_values.binding"
+    Type="File"
+    LastWriteTime="133957389890341325"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappView\doc_main.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.doc_main.eventbinding"
+    Type="File"
+    LastWriteTime="133963443813016434"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappMotion"
+    Type="Package"
+    LastWriteTime="133940793258744881" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\6AxesRoboArmA\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappMotion.6AxesRoboArmA"
+    Type="Package"
+    LastWriteTime="133940792763948547" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\6AxesRoboArmA\Config_1.axesgroup"
+    LogicalPath="Config1.X20CP1586.mappMotion.6AxesRoboArmA.Config_1.axesgroup"
+    Type="File"
+    LastWriteTime="133941885939003327"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\6AxesRoboArmA\Config_2.axis"
+    LogicalPath="Config1.X20CP1586.mappMotion.6AxesRoboArmA.Config_2.axis"
+    Type="File"
+    LastWriteTime="133940967232892603"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\6AxesRoboArmA\Config_3.mechanicalsystem"
+    LogicalPath="Config1.X20CP1586.mappMotion.6AxesRoboArmA.Config_3.mechanicalsystem"
+    Type="File"
+    LastWriteTime="133940792763938561"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\6AxesRoboArmA\Config_4.axesgroupfeature"
+    LogicalPath="Config1.X20CP1586.mappMotion.6AxesRoboArmA.Config_4.axesgroupfeature"
+    Type="File"
+    LastWriteTime="133940813021353736"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappMotion\Hierarchy.objecthierarchy"
+    LogicalPath="Config1.X20CP1586.mappMotion.Hierarchy.objecthierarchy"
+    Type="File"
+    LastWriteTime="133940793258734885"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappCockpit"
+    Type="Package"
+    LastWriteTime="133953011819159120" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\X20CP1586\mappCockpit\Settings.mcocfg"
+    LogicalPath="Config1.X20CP1586.mappCockpit.Settings.mcocfg"
+    Type="File"
+    LastWriteTime="133953144960498894"
+    Private="false" />
+  <Object
+    Path="C:\Users\Administrator\Downloads\X20CP1586_human-computer_interface\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133927029619640108"
+    Private="false" />
+</Objects>

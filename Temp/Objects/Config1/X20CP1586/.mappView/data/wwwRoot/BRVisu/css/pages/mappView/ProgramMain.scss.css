@@ -1,0 +1,65 @@
+#ProgramMain_ProgramPage {
+  height: 30px;
+}
+
+#ProgramMain_ProgramPage {
+  top: 20px;
+  position: absolute;
+}
+
+#ProgramMain_ProgramPage {
+  left: 20px;
+  position: absolute;
+}
+
+#ProgramMain_ProgramPage {
+  width: 180px;
+}
+
+#ProgramMain_ProgramPage {
+  z-index: 0;
+}
+
+#ProgramMain_ProgramInput {
+  top: 160px;
+  position: absolute;
+}
+
+#ProgramMain_ProgramInput {
+  left: 240px;
+  position: absolute;
+}
+
+#ProgramMain_ProgramInput {
+  width: 300px;
+}
+
+#ProgramMain_ProgramInput {
+  height: 40px;
+}
+
+#ProgramMain_ProgramInput {
+  z-index: 1;
+}
+
+#ProgramMain_ProgramBackSetting {
+  width: 100px;
+}
+
+#ProgramMain_ProgramBackSetting {
+  height: 30px;
+}
+
+#ProgramMain_ProgramBackSetting {
+  top: 80px;
+  position: absolute;
+}
+
+#ProgramMain_ProgramBackSetting {
+  left: 60px;
+  position: absolute;
+}
+
+#ProgramMain_ProgramBackSetting {
+  z-index: 2;
+}

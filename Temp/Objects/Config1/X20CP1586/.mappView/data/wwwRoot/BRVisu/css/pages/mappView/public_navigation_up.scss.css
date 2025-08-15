@@ -1,0 +1,469 @@
+#public_navigation_up_Time_display {
+  top: 0px;
+  position: absolute;
+}
+
+#public_navigation_up_Time_display {
+  left: 1300px;
+  position: absolute;
+}
+
+#public_navigation_up_Time_display {
+  width: 300px;
+}
+
+#public_navigation_up_Time_display {
+  height: 60px;
+}
+
+#public_navigation_up_Time_display {
+  z-index: 0;
+}
+
+#public_navigation_up_Time_display {
+  background-color: steelblue;
+}
+
+#public_navigation_up_Time_display span {
+  color: white;
+}
+
+#public_navigation_up_Time_display {
+  justify-content: center;
+  text-align: center;
+}
+
+#public_navigation_up_ErrorState {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_ErrorState {
+  left: 1120px;
+  position: absolute;
+}
+
+#public_navigation_up_ErrorState {
+  width: 40px;
+}
+
+#public_navigation_up_ErrorState {
+  height: 40px;
+}
+
+#public_navigation_up_ErrorState {
+  z-index: 1;
+}
+
+#public_navigation_up_ErrorState {
+  background-color: white;
+}
+
+#public_navigation_up_Run {
+  top: 13px;
+  position: absolute;
+}
+
+#public_navigation_up_Run {
+  left: 1240px;
+  position: absolute;
+}
+
+#public_navigation_up_Run {
+  width: 40px;
+}
+
+#public_navigation_up_Run {
+  height: 40px;
+}
+
+#public_navigation_up_Run {
+  z-index: 2;
+}
+
+#public_navigation_up_Run {
+  background-color: white;
+}
+
+#public_navigation_up_Pause {
+  top: 13px;
+  position: absolute;
+}
+
+#public_navigation_up_Pause {
+  left: 1240px;
+  position: absolute;
+}
+
+#public_navigation_up_Pause {
+  width: 40px;
+}
+
+#public_navigation_up_Pause {
+  height: 40px;
+}
+
+#public_navigation_up_Pause {
+  z-index: 3;
+}
+
+#public_navigation_up_Pause {
+  background-color: white;
+}
+
+#public_navigation_up_Stop {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_Stop {
+  left: 1240px;
+  position: absolute;
+}
+
+#public_navigation_up_Stop {
+  width: 40px;
+}
+
+#public_navigation_up_Stop {
+  height: 40px;
+}
+
+#public_navigation_up_Stop {
+  z-index: 4;
+}
+
+#public_navigation_up_Stop {
+  background-color: white;
+}
+
+#public_navigation_up_EnableTrue {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_EnableTrue {
+  left: 20px;
+  position: absolute;
+}
+
+#public_navigation_up_EnableTrue {
+  width: 40px;
+}
+
+#public_navigation_up_EnableTrue {
+  height: 40px;
+}
+
+#public_navigation_up_EnableTrue {
+  z-index: 5;
+}
+
+#public_navigation_up_EnableTrue {
+  background-color: white;
+}
+
+#public_navigation_up_EnableFalse {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_EnableFalse {
+  left: 20px;
+  position: absolute;
+}
+
+#public_navigation_up_EnableFalse {
+  width: 40px;
+}
+
+#public_navigation_up_EnableFalse {
+  height: 40px;
+}
+
+#public_navigation_up_EnableFalse {
+  z-index: 6;
+}
+
+#public_navigation_up_EnableFalse {
+  background-color: white;
+}
+
+#public_navigation_up_IsHomed {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_IsHomed {
+  left: 1180px;
+  position: absolute;
+}
+
+#public_navigation_up_IsHomed {
+  width: 40px;
+}
+
+#public_navigation_up_IsHomed {
+  height: 40px;
+}
+
+#public_navigation_up_IsHomed {
+  z-index: 7;
+}
+
+#public_navigation_up_IsHomed {
+  background-color: white;
+}
+
+#public_navigation_up_PowerOn {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_PowerOn {
+  left: 80px;
+  position: absolute;
+}
+
+#public_navigation_up_PowerOn {
+  width: 40px;
+}
+
+#public_navigation_up_PowerOn {
+  height: 40px;
+}
+
+#public_navigation_up_PowerOn {
+  z-index: 8;
+}
+
+#public_navigation_up_PowerOn {
+  background-color: white;
+}
+
+#public_navigation_up_PowerOff {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_PowerOff {
+  left: 80px;
+  position: absolute;
+}
+
+#public_navigation_up_PowerOff {
+  width: 40px;
+}
+
+#public_navigation_up_PowerOff {
+  height: 40px;
+}
+
+#public_navigation_up_PowerOff {
+  z-index: 9;
+}
+
+#public_navigation_up_PowerOff {
+  background-color: white;
+}
+
+#public_navigation_up_ProgramName {
+  top: 0px;
+  position: absolute;
+}
+
+#public_navigation_up_ProgramName {
+  left: 660px;
+  position: absolute;
+}
+
+#public_navigation_up_ProgramName {
+  width: 280px;
+}
+
+#public_navigation_up_ProgramName {
+  height: 60px;
+}
+
+#public_navigation_up_ProgramName {
+  z-index: 10;
+}
+
+#public_navigation_up_ProgramName {
+  background-color: steelblue;
+}
+
+#public_navigation_up_ProgramName span {
+  color: white;
+}
+
+#public_navigation_up_ProgramName {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#public_navigation_up_ProgramName {
+  font-size: 18px;
+}
+
+#public_navigation_up_Continuous {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_Continuous {
+  left: 1060px;
+  position: absolute;
+}
+
+#public_navigation_up_Continuous {
+  width: 40px;
+}
+
+#public_navigation_up_Continuous {
+  height: 40px;
+}
+
+#public_navigation_up_Continuous {
+  z-index: 11;
+}
+
+#public_navigation_up_Continuous {
+  background-color: white;
+}
+
+#public_navigation_up_SingleStep {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_SingleStep {
+  left: 1060px;
+  position: absolute;
+}
+
+#public_navigation_up_SingleStep {
+  width: 40px;
+}
+
+#public_navigation_up_SingleStep {
+  height: 40px;
+}
+
+#public_navigation_up_SingleStep {
+  z-index: 12;
+}
+
+#public_navigation_up_SingleStep {
+  background-color: white;
+}
+
+#public_navigation_up_NoError {
+  top: 12px;
+  position: absolute;
+}
+
+#public_navigation_up_NoError {
+  left: 1120px;
+  position: absolute;
+}
+
+#public_navigation_up_NoError {
+  width: 40px;
+}
+
+#public_navigation_up_NoError {
+  height: 40px;
+}
+
+#public_navigation_up_NoError {
+  z-index: 13;
+}
+
+#public_navigation_up_NoError {
+  background-color: white;
+}
+
+#public_navigation_up_CurrentUser {
+  top: 0px;
+  position: absolute;
+}
+
+#public_navigation_up_CurrentUser {
+  left: 160px;
+  position: absolute;
+}
+
+#public_navigation_up_CurrentUser {
+  width: 160px;
+}
+
+#public_navigation_up_CurrentUser {
+  height: 60px;
+}
+
+#public_navigation_up_CurrentUser {
+  z-index: 14;
+}
+
+#public_navigation_up_CurrentUser {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#public_navigation_up_CurrentUser span {
+  color: navy;
+}
+
+#public_navigation_up_CurrentUser {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#public_navigation_up_CurrentUser {
+  font-size: 18px;
+}
+
+#public_navigation_up_CurrentPage {
+  top: 0px;
+  position: absolute;
+}
+
+#public_navigation_up_CurrentPage {
+  left: 360px;
+  position: absolute;
+}
+
+#public_navigation_up_CurrentPage {
+  width: 180px;
+}
+
+#public_navigation_up_CurrentPage {
+  height: 60px;
+}
+
+#public_navigation_up_CurrentPage {
+  z-index: 15;
+}
+
+#public_navigation_up_CurrentPage {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#public_navigation_up_CurrentPage span {
+  color: navy;
+}
+
+#public_navigation_up_CurrentPage {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#public_navigation_up_CurrentPage {
+  font-size: 18px;
+}

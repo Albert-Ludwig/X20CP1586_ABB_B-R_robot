@@ -1,0 +1,131 @@
+#Adjust_theme_content_Theme1 {
+  width: 100px;
+}
+
+#Adjust_theme_content_Theme1 {
+  height: 30px;
+}
+
+#Adjust_theme_content_Theme1 {
+  top: 260px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Theme1 {
+  left: 140px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Theme1 {
+  z-index: 1;
+}
+
+#Adjust_theme_content_Flat1 {
+  width: 100px;
+}
+
+#Adjust_theme_content_Flat1 {
+  height: 30px;
+}
+
+#Adjust_theme_content_Flat1 {
+  top: 260px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Flat1 {
+  left: 280px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Flat1 {
+  z-index: 0;
+}
+
+#Adjust_theme_content_Flat2 {
+  width: 100px;
+}
+
+#Adjust_theme_content_Flat2 {
+  height: 30px;
+}
+
+#Adjust_theme_content_Flat2 {
+  top: 260px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Flat2 {
+  left: 420px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Flat2 {
+  z-index: 2;
+}
+
+#Adjust_theme_content_Grey {
+  width: 100px;
+}
+
+#Adjust_theme_content_Grey {
+  height: 30px;
+}
+
+#Adjust_theme_content_Grey {
+  top: 260px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Grey {
+  left: 560px;
+  position: absolute;
+}
+
+#Adjust_theme_content_Grey {
+  z-index: 3;
+}
+
+#Adjust_theme_content_AdjustThemeText {
+  height: 30px;
+}
+
+#Adjust_theme_content_AdjustThemeText {
+  top: 20px;
+  position: absolute;
+}
+
+#Adjust_theme_content_AdjustThemeText {
+  left: 20px;
+  position: absolute;
+}
+
+#Adjust_theme_content_AdjustThemeText {
+  width: 160px;
+}
+
+#Adjust_theme_content_AdjustThemeText {
+  z-index: 4;
+}
+
+#Adjust_theme_content_ThemeBackSetting {
+  width: 100px;
+}
+
+#Adjust_theme_content_ThemeBackSetting {
+  height: 30px;
+}
+
+#Adjust_theme_content_ThemeBackSetting {
+  top: 80px;
+  position: absolute;
+}
+
+#Adjust_theme_content_ThemeBackSetting {
+  left: 40px;
+  position: absolute;
+}
+
+#Adjust_theme_content_ThemeBackSetting {
+  z-index: 5;
+}

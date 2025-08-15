@@ -1,0 +1,16 @@
+VAR
+	CurrentPage : STRING[80];
+	Message : STRING[80];
+	My6Axis_Par : MpRoboArm6AxisParType;
+	fbMy6Axis : MpRoboArm6Axis;
+	ServiceButton : ButtonTyp;
+	SettingButton : ButtonTyp;
+	ManualButton : ButtonTyp;
+	HomeButton : ButtonTyp;
+	PowerButton : ButtonTyp;
+	RunButton : ButtonTyp;
+	InterruptButton : ButtonTyp;
+	ContinueButton : ButtonTyp;
+	SingleStepButton : ButtonTyp;
+	LogInButton : ButtonTyp;
+END_VAR

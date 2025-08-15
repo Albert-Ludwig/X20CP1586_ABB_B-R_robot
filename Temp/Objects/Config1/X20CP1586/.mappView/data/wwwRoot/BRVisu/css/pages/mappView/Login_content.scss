@@ -1,0 +1,192 @@
+﻿@import "mixins.scss";
+#Login_content_Login {
+	@include elemTop(100);
+}
+#Login_content_Login {
+	@include elemLeft(40);
+}
+#Login_content_Login {
+	@include elemWidth(560);
+}
+#Login_content_Login {
+	@include elemHeight(140);
+}
+#Login_content_Login {
+		z-index: 0;
+}
+#Login_content_Login {
+		background-color: rgba(255, 255, 255, 0);
+}
+#Login_content_Line1 {
+		z-index: 1;
+}
+#Login_content_Line1 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#Login_content_Line1 {
+	line{
+		stroke-width: 3px;
+	}
+}
+#Login_content_Logout {
+	@include elemTop(260);
+}
+#Login_content_Logout {
+	@include elemLeft(60);
+}
+#Login_content_Logout {
+	@include elemAutoWidth(120);
+}
+#Login_content_Logout {
+	@include elemAutoHeight(40);
+}
+#Login_content_Logout {
+		z-index: 2;
+}
+#Login_content_SelectedUser {
+	@include elemAutoHeight(30);
+}
+#Login_content_SelectedUser {
+	@include elemTop(40);
+}
+#Login_content_SelectedUser {
+	@include elemLeft(660);
+}
+#Login_content_SelectedUser {
+	@include elemAutoWidth(140);
+}
+#Login_content_SelectedUser {
+		z-index: 3;
+}
+#Login_content_SelectedUser {
+		background-color: rgba(245, 245, 245, 1);
+}
+#Login_content_SelectedUser {
+	@include text-alignment-all('center');
+}
+#Login_content_SelectedUser {
+		font-size: 18px;
+}
+#Login_content_Line2 {
+		z-index: 4;
+}
+#Login_content_Line2 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#Login_content_Line2 {
+	line{
+		stroke-width: 3px;
+	}
+}
+#Login_content_SelectedUserName {
+	@include elemAutoHeight(30);
+}
+#Login_content_SelectedUserName {
+	@include elemTop(40);
+}
+#Login_content_SelectedUserName {
+	@include elemLeft(920);
+}
+#Login_content_SelectedUserName {
+	@include elemAutoWidth(220);
+}
+#Login_content_SelectedUserName {
+		z-index: 5;
+}
+#Login_content_SelectedUserName {
+	@include text-alignment-all('center');
+}
+#Login_content_SelectedUserName {
+		font-size: 18px;
+}
+#Login_content_RoleName {
+	@include elemAutoHeight(30);
+}
+#Login_content_RoleName {
+	@include elemTop(140);
+}
+#Login_content_RoleName {
+	@include elemLeft(660);
+}
+#Login_content_RoleName {
+	@include elemAutoWidth(140);
+}
+#Login_content_RoleName {
+		z-index: 6;
+}
+#Login_content_RoleName {
+		background-color: rgba(245, 245, 245, 1);
+}
+#Login_content_RoleName {
+	@include text-alignment-all('center');
+}
+#Login_content_RoleName {
+		font-size: 18px;
+}
+#Login_content_Role_Name_Disp {
+	@include elemAutoHeight(30);
+}
+#Login_content_Role_Name_Disp {
+	@include elemTop(140);
+}
+#Login_content_Role_Name_Disp {
+	@include elemLeft(840);
+}
+#Login_content_Role_Name_Disp {
+	@include elemAutoWidth(440);
+}
+#Login_content_Role_Name_Disp {
+		z-index: 7;
+}
+#Login_content_Role_Name_Disp {
+	@include text-alignment-all('center');
+}
+#Login_content_Role_Name_Disp {
+		font-size: 18px;
+}
+#Login_content_Role_Name_Disp2 {
+	@include elemAutoHeight(30);
+}
+#Login_content_Role_Name_Disp2 {
+	@include elemTop(200);
+}
+#Login_content_Role_Name_Disp2 {
+	@include elemLeft(840);
+}
+#Login_content_Role_Name_Disp2 {
+	@include elemAutoWidth(440);
+}
+#Login_content_Role_Name_Disp2 {
+		z-index: 8;
+}
+#Login_content_Role_Name_Disp2 {
+	@include text-alignment-all('center');
+}
+#Login_content_Role_Name_Disp2 {
+		font-size: 18px;
+}
+#Login_content_Role_Name_Disp3 {
+	@include elemAutoHeight(30);
+}
+#Login_content_Role_Name_Disp3 {
+	@include elemTop(260);
+}
+#Login_content_Role_Name_Disp3 {
+	@include elemLeft(840);
+}
+#Login_content_Role_Name_Disp3 {
+	@include elemAutoWidth(440);
+}
+#Login_content_Role_Name_Disp3 {
+		z-index: 9;
+}
+#Login_content_Role_Name_Disp3 {
+	@include text-alignment-all('center');
+}
+#Login_content_Role_Name_Disp3 {
+		font-size: 18px;
+}

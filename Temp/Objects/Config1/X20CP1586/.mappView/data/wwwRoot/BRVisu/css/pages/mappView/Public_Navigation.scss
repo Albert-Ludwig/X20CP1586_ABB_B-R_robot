@@ -1,0 +1,106 @@
+﻿@import "mixins.scss";
+#Public_Navigation_LogIn {
+	@include elemTop(20);
+}
+#Public_Navigation_LogIn {
+	@include elemLeft(0);
+}
+#Public_Navigation_LogIn {
+	@include elemAutoWidth(120);
+}
+#Public_Navigation_LogIn {
+	@include elemAutoHeight(60);
+}
+#Public_Navigation_LogIn {
+		z-index: 0;
+}
+#Public_Navigation_LogIn {
+	span{
+	@include font-weight-bold(false);
+	}
+}
+#Public_Navigation_Setting_button {
+	@include elemTop(160);
+}
+#Public_Navigation_Setting_button {
+	@include elemLeft(0);
+}
+#Public_Navigation_Setting_button {
+	@include elemAutoWidth(120);
+}
+#Public_Navigation_Setting_button {
+	@include elemAutoHeight(60);
+}
+#Public_Navigation_Setting_button {
+		z-index: 1;
+}
+#Public_Navigation_Setting_button {
+	span{
+	@include font-weight-bold(false);
+	}
+}
+#Public_Navigation_Main {
+	@include elemTop(300);
+}
+#Public_Navigation_Main {
+	@include elemLeft(0);
+}
+#Public_Navigation_Main {
+	@include elemAutoWidth(120);
+}
+#Public_Navigation_Main {
+	@include elemAutoHeight(60);
+}
+#Public_Navigation_Main {
+		z-index: 2;
+}
+#Public_Navigation_Main {
+	&:not(.disabled):not(.active):not(.checked){
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#Public_Navigation_Main {
+	span{
+	@include font-weight-bold(true);
+	}
+}
+#Public_Navigation_Manual_Mode {
+	@include elemTop(440);
+}
+#Public_Navigation_Manual_Mode {
+	@include elemLeft(0);
+}
+#Public_Navigation_Manual_Mode {
+	@include elemAutoWidth(120);
+}
+#Public_Navigation_Manual_Mode {
+	@include elemAutoHeight(60);
+}
+#Public_Navigation_Manual_Mode {
+		z-index: 3;
+}
+#Public_Navigation_Manual_Mode {
+	span{
+	@include font-weight-bold(false);
+	}
+}
+#Public_Navigation_Service {
+	@include elemTop(580);
+}
+#Public_Navigation_Service {
+	@include elemLeft(0);
+}
+#Public_Navigation_Service {
+	@include elemAutoWidth(120);
+}
+#Public_Navigation_Service {
+	@include elemAutoHeight(60);
+}
+#Public_Navigation_Service {
+		z-index: 4;
+}
+#Public_Navigation_Service {
+	span{
+	@include font-weight-bold(false);
+	}
+}

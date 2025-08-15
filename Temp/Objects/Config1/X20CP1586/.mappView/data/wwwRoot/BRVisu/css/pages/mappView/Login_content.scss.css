@@ -1,0 +1,277 @@
+#Login_content_Login {
+  top: 100px;
+  position: absolute;
+}
+
+#Login_content_Login {
+  left: 40px;
+  position: absolute;
+}
+
+#Login_content_Login {
+  width: 560px;
+}
+
+#Login_content_Login {
+  height: 140px;
+}
+
+#Login_content_Login {
+  z-index: 0;
+}
+
+#Login_content_Login {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#Login_content_Line1 {
+  z-index: 1;
+}
+
+#Login_content_Line1 line {
+  stroke: navy;
+}
+
+#Login_content_Line1 line {
+  stroke-width: 3px;
+}
+
+#Login_content_Logout {
+  top: 260px;
+  position: absolute;
+}
+
+#Login_content_Logout {
+  left: 60px;
+  position: absolute;
+}
+
+#Login_content_Logout {
+  width: 120px;
+}
+
+#Login_content_Logout {
+  height: 40px;
+}
+
+#Login_content_Logout {
+  z-index: 2;
+}
+
+#Login_content_SelectedUser {
+  height: 30px;
+}
+
+#Login_content_SelectedUser {
+  top: 40px;
+  position: absolute;
+}
+
+#Login_content_SelectedUser {
+  left: 660px;
+  position: absolute;
+}
+
+#Login_content_SelectedUser {
+  width: 140px;
+}
+
+#Login_content_SelectedUser {
+  z-index: 3;
+}
+
+#Login_content_SelectedUser {
+  background-color: whitesmoke;
+}
+
+#Login_content_SelectedUser {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Login_content_SelectedUser {
+  font-size: 18px;
+}
+
+#Login_content_Line2 {
+  z-index: 4;
+}
+
+#Login_content_Line2 line {
+  stroke: navy;
+}
+
+#Login_content_Line2 line {
+  stroke-width: 3px;
+}
+
+#Login_content_SelectedUserName {
+  height: 30px;
+}
+
+#Login_content_SelectedUserName {
+  top: 40px;
+  position: absolute;
+}
+
+#Login_content_SelectedUserName {
+  left: 920px;
+  position: absolute;
+}
+
+#Login_content_SelectedUserName {
+  width: 220px;
+}
+
+#Login_content_SelectedUserName {
+  z-index: 5;
+}
+
+#Login_content_SelectedUserName {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Login_content_SelectedUserName {
+  font-size: 18px;
+}
+
+#Login_content_RoleName {
+  height: 30px;
+}
+
+#Login_content_RoleName {
+  top: 140px;
+  position: absolute;
+}
+
+#Login_content_RoleName {
+  left: 660px;
+  position: absolute;
+}
+
+#Login_content_RoleName {
+  width: 140px;
+}
+
+#Login_content_RoleName {
+  z-index: 6;
+}
+
+#Login_content_RoleName {
+  background-color: whitesmoke;
+}
+
+#Login_content_RoleName {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Login_content_RoleName {
+  font-size: 18px;
+}
+
+#Login_content_Role_Name_Disp {
+  height: 30px;
+}
+
+#Login_content_Role_Name_Disp {
+  top: 140px;
+  position: absolute;
+}
+
+#Login_content_Role_Name_Disp {
+  left: 840px;
+  position: absolute;
+}
+
+#Login_content_Role_Name_Disp {
+  width: 440px;
+}
+
+#Login_content_Role_Name_Disp {
+  z-index: 7;
+}
+
+#Login_content_Role_Name_Disp {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Login_content_Role_Name_Disp {
+  font-size: 18px;
+}
+
+#Login_content_Role_Name_Disp2 {
+  height: 30px;
+}
+
+#Login_content_Role_Name_Disp2 {
+  top: 200px;
+  position: absolute;
+}
+
+#Login_content_Role_Name_Disp2 {
+  left: 840px;
+  position: absolute;
+}
+
+#Login_content_Role_Name_Disp2 {
+  width: 440px;
+}
+
+#Login_content_Role_Name_Disp2 {
+  z-index: 8;
+}
+
+#Login_content_Role_Name_Disp2 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Login_content_Role_Name_Disp2 {
+  font-size: 18px;
+}
+
+#Login_content_Role_Name_Disp3 {
+  height: 30px;
+}
+
+#Login_content_Role_Name_Disp3 {
+  top: 260px;
+  position: absolute;
+}
+
+#Login_content_Role_Name_Disp3 {
+  left: 840px;
+  position: absolute;
+}
+
+#Login_content_Role_Name_Disp3 {
+  width: 440px;
+}
+
+#Login_content_Role_Name_Disp3 {
+  z-index: 9;
+}
+
+#Login_content_Role_Name_Disp3 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Login_content_Role_Name_Disp3 {
+  font-size: 18px;
+}

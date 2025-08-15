@@ -1,0 +1,91 @@
+﻿@import "mixins.scss";
+#Adjust_theme_content_Theme1 {
+	@include elemAutoWidth(100);
+}
+#Adjust_theme_content_Theme1 {
+	@include elemAutoHeight(30);
+}
+#Adjust_theme_content_Theme1 {
+	@include elemTop(260);
+}
+#Adjust_theme_content_Theme1 {
+	@include elemLeft(140);
+}
+#Adjust_theme_content_Theme1 {
+		z-index: 1;
+}
+#Adjust_theme_content_Flat1 {
+	@include elemAutoWidth(100);
+}
+#Adjust_theme_content_Flat1 {
+	@include elemAutoHeight(30);
+}
+#Adjust_theme_content_Flat1 {
+	@include elemTop(260);
+}
+#Adjust_theme_content_Flat1 {
+	@include elemLeft(280);
+}
+#Adjust_theme_content_Flat1 {
+		z-index: 0;
+}
+#Adjust_theme_content_Flat2 {
+	@include elemAutoWidth(100);
+}
+#Adjust_theme_content_Flat2 {
+	@include elemAutoHeight(30);
+}
+#Adjust_theme_content_Flat2 {
+	@include elemTop(260);
+}
+#Adjust_theme_content_Flat2 {
+	@include elemLeft(420);
+}
+#Adjust_theme_content_Flat2 {
+		z-index: 2;
+}
+#Adjust_theme_content_Grey {
+	@include elemAutoWidth(100);
+}
+#Adjust_theme_content_Grey {
+	@include elemAutoHeight(30);
+}
+#Adjust_theme_content_Grey {
+	@include elemTop(260);
+}
+#Adjust_theme_content_Grey {
+	@include elemLeft(560);
+}
+#Adjust_theme_content_Grey {
+		z-index: 3;
+}
+#Adjust_theme_content_AdjustThemeText {
+	@include elemAutoHeight(30);
+}
+#Adjust_theme_content_AdjustThemeText {
+	@include elemTop(20);
+}
+#Adjust_theme_content_AdjustThemeText {
+	@include elemLeft(20);
+}
+#Adjust_theme_content_AdjustThemeText {
+	@include elemAutoWidth(160);
+}
+#Adjust_theme_content_AdjustThemeText {
+		z-index: 4;
+}
+#Adjust_theme_content_ThemeBackSetting {
+	@include elemAutoWidth(100);
+}
+#Adjust_theme_content_ThemeBackSetting {
+	@include elemAutoHeight(30);
+}
+#Adjust_theme_content_ThemeBackSetting {
+	@include elemTop(80);
+}
+#Adjust_theme_content_ThemeBackSetting {
+	@include elemLeft(40);
+}
+#Adjust_theme_content_ThemeBackSetting {
+		z-index: 5;
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Public_Navigation" height="840" width="120" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NavigationButton" id="LogIn" top="20" left="0" width="120" height="60" zIndex="0" pageId="Login_page" text="LogIn" bold="false" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Setting_button" top="160" left="0" width="120" height="60" zIndex="1" pageId="Setting_mainPage" text="Setting" bold="false" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Main" top="300" left="0" width="120" height="60" zIndex="2" pageId="MainPage" text="Main" backColor="rgba(255, 192, 192, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Manual_Mode" top="440" left="0" width="120" height="60" zIndex="3" pageId="Manual_Main" text="Manual" bold="false" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Service" top="580" left="0" width="120" height="60" zIndex="4" pageId="Service" text="Service" bold="false" />
+  </Widgets>
+</Content>

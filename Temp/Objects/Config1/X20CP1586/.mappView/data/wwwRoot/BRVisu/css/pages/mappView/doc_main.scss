@@ -1,0 +1,49 @@
+﻿@import "mixins.scss";
+#doc_main_Documentation_PDF {
+	@include elemTop(20);
+}
+#doc_main_Documentation_PDF {
+	@include elemLeft(320);
+}
+#doc_main_Documentation_PDF {
+	@include elemWidth(700);
+}
+#doc_main_Documentation_PDF {
+	@include elemHeight(780);
+}
+#doc_main_Documentation_PDF {
+		z-index: 0;
+}
+#doc_main_DocPage {
+	@include elemAutoHeight(30);
+}
+#doc_main_DocPage {
+	@include elemTop(20);
+}
+#doc_main_DocPage {
+	@include elemLeft(20);
+}
+#doc_main_DocPage {
+	@include elemAutoWidth(220);
+}
+#doc_main_DocPage {
+		z-index: 1;
+}
+#doc_main_DocPage {
+		font-size: 18px;
+}
+#doc_main_DocBackSet {
+	@include elemTop(80);
+}
+#doc_main_DocBackSet {
+	@include elemLeft(60);
+}
+#doc_main_DocBackSet {
+	@include elemAutoWidth(120);
+}
+#doc_main_DocBackSet {
+	@include elemAutoHeight(40);
+}
+#doc_main_DocBackSet {
+		z-index: 2;
+}

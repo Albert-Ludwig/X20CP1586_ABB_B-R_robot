@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Adjust_theme_content" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="Theme1" top="260" left="140" zIndex="1" text="Theme1" />
+    <Widget xsi:type="widgets.brease.Button" id="Flat1" top="260" left="280" zIndex="0" text="Flat1" />
+    <Widget xsi:type="widgets.brease.Button" id="Flat2" top="260" left="420" zIndex="2" text="Flat2" />
+    <Widget xsi:type="widgets.brease.Button" id="Grey" top="260" left="560" zIndex="3" text="Grey" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="AdjustThemeText" top="20" left="20" width="160" zIndex="4" value="$IAT/ThemeAdj_Page" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="ThemeBackSetting" top="80" left="40" zIndex="5" pageId="Setting_mainPage" text="Setting" />
+  </Widgets>
+</Content>

@@ -1,0 +1,160 @@
+﻿@import "mixins.scss";
+@import "../../../../widgets/brease/DateTimeInput/meta/DateTimeInput_base";
+.widgets_brease_DateTimeInput_style_Input {
+@include widgets_brease_DateTimeInput_base; 
+&:not(.active):not(.disabled) span {
+	color: #000000;
+}
+&:not(.disabled):not(.active) {
+	border-width: 1px;
+}
+&:not(.active):not(.disabled) {
+	border-color: #DDDDDD;
+}
+	font-size: 20px;
+&:not(.active):not(.disabled) {
+	background-color: #FFFFFF;
+}
+&.active:not(.disabled) {
+	background-color: #EBEBEB;
+}
+&.active:not(.disabled) span {
+	color: #555555;
+}
+@include font-weight-bold(true);
+&.active:not(.disabled) {
+	border-color: transparent;
+}
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+
+}
+@import "../../../../widgets/brease/DateTimeInput/meta/DateTimeInput_base";
+.widgets_brease_DateTimeInput_style_InputLarge {
+@include widgets_brease_DateTimeInput_base; 
+&:not(.active):not(.disabled) span {
+	color: #000000;
+}
+&:not(.disabled):not(.active) {
+	border-width: 1px;
+}
+&:not(.active):not(.disabled) {
+	border-color: #DDDDDD;
+}
+	font-size: 32px;
+&:not(.active):not(.disabled) {
+	background-color: #FFFFFF;
+}
+&.active:not(.disabled) {
+	background-color: #EBEBEB;
+}
+&.active:not(.disabled) span {
+	color: #555555;
+}
+@include font-weight-bold(true);
+&.active:not(.disabled) {
+	border-color: transparent;
+}
+@include box-shadow(1px 1px 8px 0px rgba(5, 112, 193, 0.75));
+
+}
+@import "../../../../widgets/brease/DateTimeInput/meta/DateTimeInput_base";
+.widgets_brease_DateTimeInput_style_InputCommand {
+@include widgets_brease_DateTimeInput_base; 
+&:not(.active):not(.disabled) span {
+	color: #000000;
+}
+&:not(.disabled):not(.active) {
+	border-width: 0px;
+}
+&:not(.active):not(.disabled) {
+	border-color: #DDDDDD;
+}
+	font-size: 16px;
+&:not(.active):not(.disabled) {
+	background-color: #FFFFFF;
+}
+&.active:not(.disabled) {
+	background-color: #EBEBEB;
+}
+&.active:not(.disabled) span {
+	color: #555555;
+}
+@include font-weight-bold(true);
+&.active:not(.disabled) {
+	border-color: transparent;
+}
+@include box-shadow(1px 1px 14px 0px rgba(255, 113, 0, 0.75));
+
+}
+@import "../../../../widgets/brease/DateTimeOutput/meta/DateTimeOutput_base";
+.widgets_brease_DateTimeOutput_style_Output {
+@include widgets_brease_DateTimeOutput_base; 
+& span {
+	color: #000000;
+}
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	font-size: 20px;
+	background-color: #F6F6F6;
+@include font-weight-bold(true);
+
+}
+@import "../../../../widgets/brease/DateTimeOutput/meta/DateTimeOutput_base";
+.widgets_brease_DateTimeOutput_style_OutputLarge {
+@include widgets_brease_DateTimeOutput_base; 
+& span {
+	color: #000000;
+}
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	font-size: 32px;
+	background-color: #F6F6F6;
+@include font-weight-bold(true);
+
+}
+@import "../../../../widgets/brease/DateTimeOutput/meta/DateTimeOutput_base";
+.widgets_brease_DateTimeOutput_style_Overview {
+@include widgets_brease_DateTimeOutput_base; 
+& span {
+	color: #000000;
+}
+	border-width: 0px;
+	font-size: 72px;
+@include font-weight-bold(true);
+	background-color: transparent;
+
+}
+@import "../../../../widgets/brease/MeasurementSystemSelector/meta/MeasurementSystemSelector_base";
+.widgets_brease_MeasurementSystemSelector_style_transparent {
+@include widgets_brease_MeasurementSystemSelector_base; 
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: transparent;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: transparent;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #FFFFFF;
+}
+
+}

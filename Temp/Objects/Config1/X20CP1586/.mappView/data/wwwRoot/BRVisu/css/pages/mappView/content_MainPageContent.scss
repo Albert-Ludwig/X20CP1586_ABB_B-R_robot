@@ -1,0 +1,1212 @@
+﻿@import "mixins.scss";
+#content_MainPageContent_X_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_X_val {
+	@include elemTop(80);
+}
+#content_MainPageContent_X_val {
+	@include elemLeft(140);
+}
+#content_MainPageContent_X_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_X_val {
+		z-index: 0;
+}
+#content_MainPageContent_X_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_X_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_X_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_X_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Position_text {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Position_text {
+	@include elemTop(20);
+}
+#content_MainPageContent_Position_text {
+	@include elemLeft(40);
+}
+#content_MainPageContent_Position_text {
+	@include elemAutoWidth(120);
+}
+#content_MainPageContent_Position_text {
+		z-index: 1;
+}
+#content_MainPageContent_Position_text {
+		font-size: 20px;
+}
+#content_MainPageContent_X {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_X {
+	@include elemTop(80);
+}
+#content_MainPageContent_X {
+	@include elemLeft(80);
+}
+#content_MainPageContent_X {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_X {
+		z-index: 2;
+}
+#content_MainPageContent_X {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Y {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Y {
+	@include elemTop(140);
+}
+#content_MainPageContent_Y {
+	@include elemLeft(80);
+}
+#content_MainPageContent_Y {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_Y {
+		z-index: 3;
+}
+#content_MainPageContent_Y {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Z {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Z {
+	@include elemTop(200);
+}
+#content_MainPageContent_Z {
+	@include elemLeft(80);
+}
+#content_MainPageContent_Z {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_Z {
+		z-index: 4;
+}
+#content_MainPageContent_Z {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_A {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_A {
+	@include elemTop(260);
+}
+#content_MainPageContent_A {
+	@include elemLeft(80);
+}
+#content_MainPageContent_A {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_A {
+		z-index: 5;
+}
+#content_MainPageContent_A {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_B {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_B {
+	@include elemTop(320);
+}
+#content_MainPageContent_B {
+	@include elemLeft(80);
+}
+#content_MainPageContent_B {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_B {
+		z-index: 6;
+}
+#content_MainPageContent_B {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_C {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_C {
+	@include elemTop(380);
+}
+#content_MainPageContent_C {
+	@include elemLeft(80);
+}
+#content_MainPageContent_C {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_C {
+		z-index: 7;
+}
+#content_MainPageContent_C {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q1 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q1 {
+	@include elemTop(80);
+}
+#content_MainPageContent_Q1 {
+	@include elemLeft(340);
+}
+#content_MainPageContent_Q1 {
+	@include elemAutoWidth(60);
+}
+#content_MainPageContent_Q1 {
+		z-index: 8;
+}
+#content_MainPageContent_Q1 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q2 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q2 {
+	@include elemTop(140);
+}
+#content_MainPageContent_Q2 {
+	@include elemLeft(340);
+}
+#content_MainPageContent_Q2 {
+	@include elemAutoWidth(60);
+}
+#content_MainPageContent_Q2 {
+		z-index: 9;
+}
+#content_MainPageContent_Q2 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q3 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q3 {
+	@include elemTop(200);
+}
+#content_MainPageContent_Q3 {
+	@include elemLeft(340);
+}
+#content_MainPageContent_Q3 {
+	@include elemAutoWidth(60);
+}
+#content_MainPageContent_Q3 {
+		z-index: 10;
+}
+#content_MainPageContent_Q3 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q4 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q4 {
+	@include elemTop(260);
+}
+#content_MainPageContent_Q4 {
+	@include elemLeft(340);
+}
+#content_MainPageContent_Q4 {
+	@include elemAutoWidth(60);
+}
+#content_MainPageContent_Q4 {
+		z-index: 11;
+}
+#content_MainPageContent_Q4 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q5 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q5 {
+	@include elemTop(320);
+}
+#content_MainPageContent_Q5 {
+	@include elemLeft(340);
+}
+#content_MainPageContent_Q5 {
+	@include elemAutoWidth(60);
+}
+#content_MainPageContent_Q5 {
+		z-index: 12;
+}
+#content_MainPageContent_Q5 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q6 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q6 {
+	@include elemTop(380);
+}
+#content_MainPageContent_Q6 {
+	@include elemLeft(340);
+}
+#content_MainPageContent_Q6 {
+	@include elemAutoWidth(60);
+}
+#content_MainPageContent_Q6 {
+		z-index: 13;
+}
+#content_MainPageContent_Q6 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Q6 {
+	& span{
+		color: rgba(71, 71, 71, 1);
+	}
+}
+#content_MainPageContent_Z_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Z_val {
+	@include elemTop(200);
+}
+#content_MainPageContent_Z_val {
+	@include elemLeft(140);
+}
+#content_MainPageContent_Z_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Z_val {
+		z-index: 14;
+}
+#content_MainPageContent_Z_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Z_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Z_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Z_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Y_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Y_val {
+	@include elemTop(140);
+}
+#content_MainPageContent_Y_val {
+	@include elemLeft(140);
+}
+#content_MainPageContent_Y_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Y_val {
+		z-index: 15;
+}
+#content_MainPageContent_Y_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Y_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Y_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Y_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_A_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_A_val {
+	@include elemTop(260);
+}
+#content_MainPageContent_A_val {
+	@include elemLeft(140);
+}
+#content_MainPageContent_A_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_A_val {
+		z-index: 16;
+}
+#content_MainPageContent_A_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_A_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_A_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_A_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_C_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_C_val {
+	@include elemTop(380);
+}
+#content_MainPageContent_C_val {
+	@include elemLeft(140);
+}
+#content_MainPageContent_C_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_C_val {
+		z-index: 17;
+}
+#content_MainPageContent_C_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_C_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_C_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_C_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_B_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_B_val {
+	@include elemTop(320);
+}
+#content_MainPageContent_B_val {
+	@include elemLeft(140);
+}
+#content_MainPageContent_B_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_B_val {
+		z-index: 18;
+}
+#content_MainPageContent_B_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_B_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_B_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_B_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Q1_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q1_val {
+	@include elemTop(80);
+}
+#content_MainPageContent_Q1_val {
+	@include elemLeft(400);
+}
+#content_MainPageContent_Q1_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Q1_val {
+		z-index: 19;
+}
+#content_MainPageContent_Q1_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q1_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q1_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Q1_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Q2_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q2_val {
+	@include elemTop(140);
+}
+#content_MainPageContent_Q2_val {
+	@include elemLeft(400);
+}
+#content_MainPageContent_Q2_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Q2_val {
+		z-index: 20;
+}
+#content_MainPageContent_Q2_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q2_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q2_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Q2_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Q3_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q3_val {
+	@include elemTop(200);
+}
+#content_MainPageContent_Q3_val {
+	@include elemLeft(400);
+}
+#content_MainPageContent_Q3_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Q3_val {
+		z-index: 21;
+}
+#content_MainPageContent_Q3_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q3_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q3_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Q3_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_A_val4 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_A_val4 {
+	@include elemTop(260);
+}
+#content_MainPageContent_A_val4 {
+	@include elemLeft(400);
+}
+#content_MainPageContent_A_val4 {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_A_val4 {
+		z-index: 22;
+}
+#content_MainPageContent_A_val4 {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_A_val4 {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_A_val4 {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_A_val4 {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Q5_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q5_val {
+	@include elemTop(320);
+}
+#content_MainPageContent_Q5_val {
+	@include elemLeft(400);
+}
+#content_MainPageContent_Q5_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Q5_val {
+		z-index: 23;
+}
+#content_MainPageContent_Q5_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q5_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q5_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Q5_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Q6_val {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Q6_val {
+	@include elemTop(380);
+}
+#content_MainPageContent_Q6_val {
+	@include elemLeft(400);
+}
+#content_MainPageContent_Q6_val {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Q6_val {
+		z-index: 24;
+}
+#content_MainPageContent_Q6_val {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q6_val {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Q6_val {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Q6_val {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Program_monitor {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Program_monitor {
+	@include elemTop(460);
+}
+#content_MainPageContent_Program_monitor {
+	@include elemLeft(40);
+}
+#content_MainPageContent_Program_monitor {
+	@include elemAutoWidth(220);
+}
+#content_MainPageContent_Program_monitor {
+		z-index: 25;
+}
+#content_MainPageContent_Program_monitor {
+		font-size: 20px;
+}
+#content_MainPageContent_Second_Last {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Second_Last {
+	@include elemTop(520);
+}
+#content_MainPageContent_Second_Last {
+	@include elemLeft(60);
+}
+#content_MainPageContent_Second_Last {
+	@include elemAutoWidth(600);
+}
+#content_MainPageContent_Second_Last {
+		z-index: 26;
+}
+#content_MainPageContent_Second_Last {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Second_Last {
+	@include text-alignment-all('center');
+}
+#content_MainPageContent_Second_Last {
+	@include font-weight-bold(false);
+}
+#content_MainPageContent_Last {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Last {
+	@include elemTop(560);
+}
+#content_MainPageContent_Last {
+	@include elemLeft(60);
+}
+#content_MainPageContent_Last {
+	@include elemAutoWidth(600);
+}
+#content_MainPageContent_Last {
+		z-index: 27;
+}
+#content_MainPageContent_Last {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Last {
+	@include text-alignment-all('center');
+}
+#content_MainPageContent_Last {
+	@include font-weight-bold(false);
+}
+#content_MainPageContent_Current {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Current {
+	@include elemTop(600);
+}
+#content_MainPageContent_Current {
+	@include elemLeft(60);
+}
+#content_MainPageContent_Current {
+	@include elemAutoWidth(600);
+}
+#content_MainPageContent_Current {
+		z-index: 28;
+}
+#content_MainPageContent_Current {
+		background-color: rgba(255, 140, 0, 1);
+}
+#content_MainPageContent_Current {
+	@include text-alignment-all('center');
+}
+#content_MainPageContent_Current {
+	@include font-weight-bold(true);
+}
+#content_MainPageContent_Next {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Next {
+	@include elemTop(640);
+}
+#content_MainPageContent_Next {
+	@include elemLeft(60);
+}
+#content_MainPageContent_Next {
+	@include elemAutoWidth(600);
+}
+#content_MainPageContent_Next {
+		z-index: 29;
+}
+#content_MainPageContent_Next {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Next {
+	@include text-alignment-all('center');
+}
+#content_MainPageContent_Next {
+	@include font-weight-bold(false);
+}
+#content_MainPageContent_Second_Next {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Second_Next {
+	@include elemTop(680);
+}
+#content_MainPageContent_Second_Next {
+	@include elemLeft(60);
+}
+#content_MainPageContent_Second_Next {
+	@include elemAutoWidth(600);
+}
+#content_MainPageContent_Second_Next {
+		z-index: 30;
+}
+#content_MainPageContent_Second_Next {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Second_Next {
+	@include text-alignment-all('center');
+}
+#content_MainPageContent_Second_Next {
+	@include font-weight-bold(false);
+}
+#content_MainPageContent_ProgramStatus {
+	@include elemTop(460);
+}
+#content_MainPageContent_ProgramStatus {
+	@include elemLeft(240);
+}
+#content_MainPageContent_ProgramStatus {
+	@include elemAutoWidth(40);
+}
+#content_MainPageContent_ProgramStatus {
+	@include elemAutoHeight(40);
+}
+#content_MainPageContent_ProgramStatus {
+		z-index: 31;
+}
+#content_MainPageContent_InformationDisplay {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_InformationDisplay {
+	@include elemTop(460);
+}
+#content_MainPageContent_InformationDisplay {
+	@include elemLeft(800);
+}
+#content_MainPageContent_InformationDisplay {
+	@include elemAutoWidth(220);
+}
+#content_MainPageContent_InformationDisplay {
+		z-index: 32;
+}
+#content_MainPageContent_InformationDisplay {
+		font-size: 20px;
+}
+#content_MainPageContent_PathVel {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_PathVel {
+	@include elemTop(540);
+}
+#content_MainPageContent_PathVel {
+	@include elemLeft(840);
+}
+#content_MainPageContent_PathVel {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_PathVel {
+		z-index: 33;
+}
+#content_MainPageContent_PathVel {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_PathVel {
+		font-size: 16px;
+}
+#content_MainPageContent_PathVelValue {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_PathVelValue {
+	@include elemTop(540);
+}
+#content_MainPageContent_PathVelValue {
+	@include elemLeft(1060);
+}
+#content_MainPageContent_PathVelValue {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_PathVelValue {
+		z-index: 34;
+}
+#content_MainPageContent_PathVelValue {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_PathVelValue {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_PathVelValue {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_PathVelValue {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_LineNumber {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_LineNumber {
+	@include elemTop(600);
+}
+#content_MainPageContent_LineNumber {
+	@include elemLeft(840);
+}
+#content_MainPageContent_LineNumber {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_LineNumber {
+		z-index: 35;
+}
+#content_MainPageContent_LineNumber {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_LineNumber {
+		font-size: 16px;
+}
+#content_MainPageContent_Line_Number {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Line_Number {
+	@include elemTop(600);
+}
+#content_MainPageContent_Line_Number {
+	@include elemLeft(1060);
+}
+#content_MainPageContent_Line_Number {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Line_Number {
+		z-index: 36;
+}
+#content_MainPageContent_Line_Number {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Line_Number {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Line_Number {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Line_Number {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_StateNumber {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_StateNumber {
+	@include elemTop(660);
+}
+#content_MainPageContent_StateNumber {
+	@include elemLeft(840);
+}
+#content_MainPageContent_StateNumber {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_StateNumber {
+		z-index: 37;
+}
+#content_MainPageContent_StateNumber {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_StateNumber {
+		font-size: 16px;
+}
+#content_MainPageContent_Line_Number1 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_Line_Number1 {
+	@include elemTop(660);
+}
+#content_MainPageContent_Line_Number1 {
+	@include elemLeft(1060);
+}
+#content_MainPageContent_Line_Number1 {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_Line_Number1 {
+		z-index: 38;
+}
+#content_MainPageContent_Line_Number1 {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Line_Number1 {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_Line_Number1 {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_Line_Number1 {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_OverallTime {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_OverallTime {
+	@include elemTop(60);
+}
+#content_MainPageContent_OverallTime {
+	@include elemLeft(680);
+}
+#content_MainPageContent_OverallTime {
+	@include elemAutoWidth(160);
+}
+#content_MainPageContent_OverallTime {
+		z-index: 39;
+}
+#content_MainPageContent_OverallTime {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_OverallTime {
+		font-size: 16px;
+}
+#content_MainPageContent_PathVelValue1 {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_PathVelValue1 {
+	@include elemTop(60);
+}
+#content_MainPageContent_PathVelValue1 {
+	@include elemLeft(880);
+}
+#content_MainPageContent_PathVelValue1 {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_PathVelValue1 {
+		z-index: 40;
+}
+#content_MainPageContent_PathVelValue1 {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_PathVelValue1 {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_PathVelValue1 {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_PathVelValue1 {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_MovementTime {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_MovementTime {
+	@include elemTop(140);
+}
+#content_MainPageContent_MovementTime {
+	@include elemLeft(680);
+}
+#content_MainPageContent_MovementTime {
+	@include elemAutoWidth(180);
+}
+#content_MainPageContent_MovementTime {
+		z-index: 41;
+}
+#content_MainPageContent_MovementTime {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_MovementRunTime {
+	@include elemAutoHeight(30);
+}
+#content_MainPageContent_MovementRunTime {
+	@include elemTop(140);
+}
+#content_MainPageContent_MovementRunTime {
+	@include elemLeft(880);
+}
+#content_MainPageContent_MovementRunTime {
+	@include elemAutoWidth(140);
+}
+#content_MainPageContent_MovementRunTime {
+		z-index: 42;
+}
+#content_MainPageContent_MovementRunTime {
+	input{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_MovementRunTime {
+	span.breaseNumericOutput_unit{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#content_MainPageContent_MovementRunTime {
+	input{
+	@include text-alignment(center);
+	}
+}
+#content_MainPageContent_MovementRunTime {
+	input{
+		font-size: 24px;
+	}
+}
+#content_MainPageContent_Line1 {
+		z-index: 43;
+}
+#content_MainPageContent_Line1 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#content_MainPageContent_Line1 {
+	line{
+		stroke-width: 4px;
+	}
+}
+#content_MainPageContent_Line2 {
+		z-index: 44;
+}
+#content_MainPageContent_Line2 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#content_MainPageContent_Line2 {
+	line{
+		stroke-width: 4px;
+	}
+}
+#content_MainPageContent_Line3 {
+		z-index: 45;
+}
+#content_MainPageContent_Line3 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#content_MainPageContent_Line3 {
+	line{
+		stroke-width: 4px;
+	}
+}
+#content_MainPageContent_Reference {
+	@include elemTop(0);
+}
+#content_MainPageContent_Reference {
+	@include elemLeft(1054);
+}
+#content_MainPageContent_Reference {
+	@include elemAutoWidth(280);
+}
+#content_MainPageContent_Reference {
+	@include elemAutoHeight(380);
+}
+#content_MainPageContent_Reference {
+		z-index: 46;
+}
+#content_MainPageContent_Line4 {
+		z-index: 47;
+}
+#content_MainPageContent_Line4 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#content_MainPageContent_Line4 {
+	line{
+		stroke-width: 5px;
+	}
+}
+#content_MainPageContent_Line5 {
+		z-index: 48;
+}
+#content_MainPageContent_Line5 {
+	line{
+		stroke: rgba(0, 0, 128, 1);
+	}
+}
+#content_MainPageContent_Line5 {
+	line{
+		stroke-width: 5px;
+	}
+}
+#content_MainPageContent_Message {
+	@include elemTop(760);
+}
+#content_MainPageContent_Message {
+	@include elemLeft(40);
+}
+#content_MainPageContent_Message {
+	@include elemAutoWidth(1240);
+}
+#content_MainPageContent_Message {
+	@include elemAutoHeight(60);
+}
+#content_MainPageContent_Message {
+		z-index: 49;
+}
+#content_MainPageContent_Message {
+		background-color: rgba(255, 255, 255, 0);
+}
+#content_MainPageContent_Message {
+	@include text-alignment-all('center');
+}
+#content_MainPageContent_Message {
+		font-size: 20px;
+}

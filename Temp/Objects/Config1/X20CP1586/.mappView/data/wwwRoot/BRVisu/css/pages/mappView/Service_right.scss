@@ -1,0 +1,16 @@
+﻿@import "mixins.scss";
+#Service_right_Home {
+	@include elemAutoWidth(100);
+}
+#Service_right_Home {
+	@include elemAutoHeight(30);
+}
+#Service_right_Home {
+	@include elemTop(220);
+}
+#Service_right_Home {
+	@include elemLeft(0);
+}
+#Service_right_Home {
+		z-index: 0;
+}

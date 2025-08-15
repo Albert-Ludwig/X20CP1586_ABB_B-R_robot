@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="eventbinding_3" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Adjust_theme_content" widgetRefId="Theme1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ChangeTheme" theme="BuRTheme1" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_2">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Adjust_theme_content" widgetRefId="Flat1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ChangeTheme" theme="BuRThemeFlat1" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Adjust_theme_content" widgetRefId="Flat2" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ChangeTheme" theme="BuRThemeFlat2" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_3">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Adjust_theme_content" widgetRefId="Grey" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ChangeTheme" theme="BuRThemeMobileGray" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Time_get">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Time_Adjust" widgetRefId="get_time_button" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Human_Comp:visGetDateTime">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Time_set">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Time_Adjust" widgetRefId="set_time_button" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Human_Comp:visSetDateTime">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_8">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Public_Navigation_Left" widgetRefId="InterruptButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Interrupt">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Continue">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_9">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Public_Navigation_Left" widgetRefId="ContinueButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Continue">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Interrupt">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_10">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.MoveDone" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="content_MainPageContent" widgetRefId="ProgramStatus">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_11">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.MoveDone" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="content_MainPageContent" widgetRefId="ProgramStatus">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_20">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Error" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="ErrorState">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="NoError">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_21">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Error" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="ErrorState">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="NoError">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_5">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.InMotion" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Run">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Stop">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Pause">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_7">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.InMotion" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Run">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_12">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Interrupt" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Pause">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Run">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Stop">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_13">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Interrupt" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Pause">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_16">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Stop" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Stop">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Run">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Pause">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_17">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Stop" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Stop">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_18">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Enable" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="EnableTrue">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="EnableFalse">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_19">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.Enable" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="EnableTrue">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="EnableFalse">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_24">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.IsHomed" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="IsHomed">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_25">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.IsHomed" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="IsHomed">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_26">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.PowerOn" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="PowerOn">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="PowerOff">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_27">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.PowerOn" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="PowerOff">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="PowerOn">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_30">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.SingleStep" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="SingleStep">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Continuous">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_31">
+      <Source xsi:type="opcUa.Event" refId="::Robotics:fbMy6Axis.SingleStep" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="Continuous">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="public_navigation_up" widgetRefId="SingleStep">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_6">
+      <Source xsi:type="widgets.brease.DateTimeOutput.Event" contentRefId="public_navigation_up" widgetRefId="Time_display" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Human_Comp:visGetDateTime">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_14">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Public_Navigation" widgetRefId="LogIn" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="LogIn Page" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_15">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Public_Navigation" widgetRefId="Main" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Main Page(Monitor)" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_22">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Public_Navigation" widgetRefId="Setting_button" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Setting Page" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_23">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Public_Navigation" widgetRefId="Manual_Mode" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Manual Page" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_28">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Public_Navigation" widgetRefId="Service" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Service Page" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_29">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Public_Navigation" widgetRefId="Service" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Service Page" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_34">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="Setting_Main" widgetRefId="Documenttaion_button" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Documentation" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_32">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="doc_main" widgetRefId="DocBackSet" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method xsi:type="opcUa.NodeAction.SetValueString" value="Setting Page" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

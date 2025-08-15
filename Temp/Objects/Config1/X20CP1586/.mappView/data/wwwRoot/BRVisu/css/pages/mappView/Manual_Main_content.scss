@@ -1,0 +1,16 @@
+﻿@import "mixins.scss";
+#Manual_Main_content_WebViewer1 {
+	@include elemTop(0);
+}
+#Manual_Main_content_WebViewer1 {
+	@include elemLeft(0);
+}
+#Manual_Main_content_WebViewer1 {
+	@include elemWidth(1320);
+}
+#Manual_Main_content_WebViewer1 {
+	@include elemHeight(840);
+}
+#Manual_Main_content_WebViewer1 {
+		z-index: 0;
+}

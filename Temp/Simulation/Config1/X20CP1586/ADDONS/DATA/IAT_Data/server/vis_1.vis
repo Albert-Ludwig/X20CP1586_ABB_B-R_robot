@@ -1,0 +1,80 @@
+
+<vdef:Visualization id="vis_1" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="MainPage" />
+  <Pages>
+    <Page refId="MainPage" />
+    <Page refId="Service" />
+    <Page refId="Login_page" />
+    <Page refId="Documentation" />
+    <Page refId="Setting_mainPage" />
+    <Page refId="Time_Adjustment" />
+    <Page refId="Adjust_Theme" />
+	<Page refId="Manual_Main" />
+	<Page refId="Unit_Language_Main" />	
+	<Page refId="ProgramSelection" />		
+		
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="1999200852" />
+    <BindingsSet refId="-1911230011" />
+    <BindingsSet refId="875199004" />
+	<BindingsSet refId="-690884937" />
+	<BindingsSet refId="-282366356" />
+	<BindingsSet refId="-255493815" />				
+	</BindingsSets>
+	
+  <EventBindingsSets>
+    <EventBindingsSet refId="1817033225" />
+  </EventBindingsSets>
+	
+  <Dialogs />
+  <Contents>
+    <Content refId="content_MainPageContent" />
+    <Content refId="Main_right" />
+    <Content refId="Main_left" />
+    <Content refId="Main_UP" />
+    <Content refId="MainPageContent2" />
+    <Content refId="service_left" />
+    <Content refId="Service_right" />
+    <Content refId="Service_up" />
+    <Content refId="Public_Navigation" />
+    <Content refId="Login_content" />
+    <Content refId="Left_2" />
+    <Content refId="Right_2" />
+    <Content refId="Up_2" />
+    <Content refId="doc_main" />
+    <Content refId="doc_up" />
+    <Content refId="doc_right" />
+    <Content refId="doc_left" />
+    <Content refId="public_navigation_up" />
+    <Content refId="Public_Navigation_Left" />
+    <Content refId="Setting_Main" />
+    <Content refId="Time_Adjust" />
+    <Content refId="Adjust_theme_content" />
+    <Content refId="Manual_Main_content" />
+	<Content refId="Unit_Language_content" />
+	<Content refId="ProgramMain" />		
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <StartTheme themeRefId="BuRThemeFlat1" />
+  <Themes>
+    <Theme refId="BuRTheme1" />
+    <Theme refId="BuRThemeFlat1" />
+    <Theme refId="BuRThemeFlat2" />
+    <Theme refId="BuRThemeMobileGray" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

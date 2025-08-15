@@ -1,0 +1,109 @@
+#Unit_Language_content_LanguageSelector1.DropDownBoxView {
+  height: 30px;
+}
+
+#Unit_Language_content_LanguageSelector1 {
+  top: 260px;
+  position: absolute;
+}
+
+#Unit_Language_content_LanguageSelector1 {
+  left: 220px;
+  position: absolute;
+}
+
+#Unit_Language_content_LanguageSelector1.DropDownBoxView {
+  width: 120px;
+}
+
+#Unit_Language_content_LanguageSelector1 {
+  z-index: 0;
+}
+
+#Unit_Language_content_Metric.DropDownBoxView {
+  height: 30px;
+}
+
+#Unit_Language_content_Metric {
+  top: 260px;
+  position: absolute;
+}
+
+#Unit_Language_content_Metric {
+  left: 400px;
+  position: absolute;
+}
+
+#Unit_Language_content_Metric.DropDownBoxView {
+  width: 120px;
+}
+
+#Unit_Language_content_Metric {
+  z-index: 1;
+}
+
+#Unit_Language_content_Unit_Language {
+  height: 30px;
+}
+
+#Unit_Language_content_Unit_Language {
+  top: 20px;
+  position: absolute;
+}
+
+#Unit_Language_content_Unit_Language {
+  left: 20px;
+  position: absolute;
+}
+
+#Unit_Language_content_Unit_Language {
+  width: 300px;
+}
+
+#Unit_Language_content_Unit_Language {
+  z-index: 2;
+}
+
+#Unit_Language_content_U_L_back_setting {
+  width: 100px;
+}
+
+#Unit_Language_content_U_L_back_setting {
+  height: 30px;
+}
+
+#Unit_Language_content_U_L_back_setting {
+  top: 80px;
+  position: absolute;
+}
+
+#Unit_Language_content_U_L_back_setting {
+  left: 40px;
+  position: absolute;
+}
+
+#Unit_Language_content_U_L_back_setting {
+  z-index: 3;
+}
+
+#Unit_Language_content_U_L_text {
+  top: 380px;
+  position: absolute;
+}
+
+#Unit_Language_content_U_L_text {
+  left: 60px;
+  position: absolute;
+}
+
+#Unit_Language_content_U_L_text {
+  width: 680px;
+}
+
+#Unit_Language_content_U_L_text {
+  height: 180px;
+}
+
+#Unit_Language_content_U_L_text {
+  z-index: 4;
+}

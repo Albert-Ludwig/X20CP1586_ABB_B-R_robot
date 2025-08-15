@@ -1,0 +1,46 @@
+﻿@import "mixins.scss";
+#ProgramMain_ProgramPage {
+	@include elemAutoHeight(30);
+}
+#ProgramMain_ProgramPage {
+	@include elemTop(20);
+}
+#ProgramMain_ProgramPage {
+	@include elemLeft(20);
+}
+#ProgramMain_ProgramPage {
+	@include elemAutoWidth(180);
+}
+#ProgramMain_ProgramPage {
+		z-index: 0;
+}
+#ProgramMain_ProgramInput {
+	@include elemTop(160);
+}
+#ProgramMain_ProgramInput {
+	@include elemLeft(240);
+}
+#ProgramMain_ProgramInput {
+	@include elemWidth(300);
+}
+#ProgramMain_ProgramInput {
+	@include elemHeight(40);
+}
+#ProgramMain_ProgramInput {
+		z-index: 1;
+}
+#ProgramMain_ProgramBackSetting {
+	@include elemAutoWidth(100);
+}
+#ProgramMain_ProgramBackSetting {
+	@include elemAutoHeight(30);
+}
+#ProgramMain_ProgramBackSetting {
+	@include elemTop(80);
+}
+#ProgramMain_ProgramBackSetting {
+	@include elemLeft(60);
+}
+#ProgramMain_ProgramBackSetting {
+		z-index: 2;
+}

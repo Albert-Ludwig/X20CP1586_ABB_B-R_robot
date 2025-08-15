@@ -1,0 +1,69 @@
+#doc_main_Documentation_PDF {
+  top: 20px;
+  position: absolute;
+}
+
+#doc_main_Documentation_PDF {
+  left: 320px;
+  position: absolute;
+}
+
+#doc_main_Documentation_PDF {
+  width: 700px;
+}
+
+#doc_main_Documentation_PDF {
+  height: 780px;
+}
+
+#doc_main_Documentation_PDF {
+  z-index: 0;
+}
+
+#doc_main_DocPage {
+  height: 30px;
+}
+
+#doc_main_DocPage {
+  top: 20px;
+  position: absolute;
+}
+
+#doc_main_DocPage {
+  left: 20px;
+  position: absolute;
+}
+
+#doc_main_DocPage {
+  width: 220px;
+}
+
+#doc_main_DocPage {
+  z-index: 1;
+}
+
+#doc_main_DocPage {
+  font-size: 18px;
+}
+
+#doc_main_DocBackSet {
+  top: 80px;
+  position: absolute;
+}
+
+#doc_main_DocBackSet {
+  left: 60px;
+  position: absolute;
+}
+
+#doc_main_DocBackSet {
+  width: 120px;
+}
+
+#doc_main_DocBackSet {
+  height: 40px;
+}
+
+#doc_main_DocBackSet {
+  z-index: 2;
+}

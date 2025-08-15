@@ -1,0 +1,131 @@
+#Time_Adjust_Adjust_Time_widget {
+  height: 30px;
+}
+
+#Time_Adjust_Adjust_Time_widget {
+  top: 180px;
+  position: absolute;
+}
+
+#Time_Adjust_Adjust_Time_widget {
+  left: 220px;
+  position: absolute;
+}
+
+#Time_Adjust_Adjust_Time_widget {
+  width: 340px;
+}
+
+#Time_Adjust_Adjust_Time_widget {
+  z-index: 0;
+}
+
+#Time_Adjust_TimeAdj_Page {
+  height: 30px;
+}
+
+#Time_Adjust_TimeAdj_Page {
+  top: 20px;
+  position: absolute;
+}
+
+#Time_Adjust_TimeAdj_Page {
+  left: 20px;
+  position: absolute;
+}
+
+#Time_Adjust_TimeAdj_Page {
+  width: 180px;
+}
+
+#Time_Adjust_TimeAdj_Page {
+  z-index: 1;
+}
+
+#Time_Adjust_timeAdj_back_setting {
+  width: 100px;
+}
+
+#Time_Adjust_timeAdj_back_setting {
+  height: 30px;
+}
+
+#Time_Adjust_timeAdj_back_setting {
+  top: 80px;
+  position: absolute;
+}
+
+#Time_Adjust_timeAdj_back_setting {
+  left: 40px;
+  position: absolute;
+}
+
+#Time_Adjust_timeAdj_back_setting {
+  z-index: 2;
+}
+
+#Time_Adjust_timeAdj_notation {
+  top: 280px;
+  position: absolute;
+}
+
+#Time_Adjust_timeAdj_notation {
+  left: 60px;
+  position: absolute;
+}
+
+#Time_Adjust_timeAdj_notation {
+  width: 700px;
+}
+
+#Time_Adjust_timeAdj_notation {
+  height: 80px;
+}
+
+#Time_Adjust_timeAdj_notation {
+  z-index: 3;
+}
+
+#Time_Adjust_set_time_button {
+  width: 100px;
+}
+
+#Time_Adjust_set_time_button {
+  height: 30px;
+}
+
+#Time_Adjust_set_time_button {
+  top: 180px;
+  position: absolute;
+}
+
+#Time_Adjust_set_time_button {
+  left: 80px;
+  position: absolute;
+}
+
+#Time_Adjust_set_time_button {
+  z-index: 4;
+}
+
+#Time_Adjust_get_time_button {
+  width: 100px;
+}
+
+#Time_Adjust_get_time_button {
+  height: 30px;
+}
+
+#Time_Adjust_get_time_button {
+  top: 180px;
+  position: absolute;
+}
+
+#Time_Adjust_get_time_button {
+  left: 600px;
+  position: absolute;
+}
+
+#Time_Adjust_get_time_button {
+  z-index: 5;
+}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="MediaPackage" PackageType="MediaPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Image_2.jpg</Object>
+    <Object Type="File">Image_5.jpg</Object>
+    <Object Type="File">background.png</Object>
+    <Object Type="File">Main_background.png</Object>
+    <Object Type="File">Pop_Up_background.png</Object>
+    <Object Type="File">GreenLight.png</Object>
+    <Object Type="File">ProgramStatus.png</Object>
+    <Object Type="File">RedLight.png</Object>
+    <Object Type="File">Error.png</Object>
+    <Object Type="File">Pause.png</Object>
+    <Object Type="File">Stop.png</Object>
+    <Object Type="File">Run.png</Object>
+    <Object Type="File">IsHomed.png</Object>
+    <Object Type="File">PowerOff.png</Object>
+    <Object Type="File">PowerOn.png</Object>
+    <Object Type="File">Continuous.png</Object>
+    <Object Type="File">SingleStep.png</Object>
+    <Object Type="File">NoError.png</Object>
+    <Object Type="File">Robotics.jpg</Object>
+    <Object Type="File">RobDoc.pdf</Object>
+  </Objects>
+</Package>

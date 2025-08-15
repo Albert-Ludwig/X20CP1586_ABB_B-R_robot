@@ -1,0 +1,111 @@
+﻿@import "mixins.scss";
+#MainPageContent2_SDM {
+	@include elemTop(40);
+}
+#MainPageContent2_SDM {
+	@include elemLeft(200);
+}
+#MainPageContent2_SDM {
+	@include elemWidth(1024);
+}
+#MainPageContent2_SDM {
+	@include elemHeight(768);
+}
+#MainPageContent2_SDM {
+		z-index: 0;
+}
+#MainPageContent2_Status_ID {
+	@include elemAutoWidth(100);
+}
+#MainPageContent2_Status_ID {
+	@include elemAutoHeight(30);
+}
+#MainPageContent2_Status_ID {
+	@include elemTop(80);
+}
+#MainPageContent2_Status_ID {
+	@include elemLeft(40);
+}
+#MainPageContent2_Status_ID {
+		z-index: 1;
+}
+#MainPageContent2_Status_ID_number {
+	@include elemAutoHeight(30);
+}
+#MainPageContent2_Status_ID_number {
+	@include elemTop(120);
+}
+#MainPageContent2_Status_ID_number {
+	@include elemLeft(40);
+}
+#MainPageContent2_Status_ID_number {
+	@include elemAutoWidth(140);
+}
+#MainPageContent2_Status_ID_number {
+		z-index: 2;
+}
+#MainPageContent2_Status_ID_number {
+	input{
+		color: rgba(192, 0, 0, 1);
+	}
+}
+#MainPageContent2_Status_ID_number {
+	span.breaseNumericOutput_unit{
+		color: rgba(192, 0, 0, 1);
+	}
+}
+#MainPageContent2_Error_state {
+	@include elemAutoWidth(100);
+}
+#MainPageContent2_Error_state {
+	@include elemAutoHeight(30);
+}
+#MainPageContent2_Error_state {
+	@include elemTop(180);
+}
+#MainPageContent2_Error_state {
+	@include elemLeft(40);
+}
+#MainPageContent2_Error_state {
+		z-index: 3;
+}
+#MainPageContent2_Error_state_number {
+	@include elemAutoHeight(30);
+}
+#MainPageContent2_Error_state_number {
+	@include elemTop(220);
+}
+#MainPageContent2_Error_state_number {
+	@include elemLeft(40);
+}
+#MainPageContent2_Error_state_number {
+	@include elemAutoWidth(140);
+}
+#MainPageContent2_Error_state_number {
+		z-index: 4;
+}
+#MainPageContent2_Error_state_number {
+	input{
+		color: rgba(192, 0, 0, 1);
+	}
+}
+#MainPageContent2_Error_state_number {
+	span.breaseNumericOutput_unit{
+		color: rgba(192, 0, 0, 1);
+	}
+}
+#MainPageContent2_ErrorResetButton {
+	@include elemTop(300);
+}
+#MainPageContent2_ErrorResetButton {
+	@include elemLeft(40);
+}
+#MainPageContent2_ErrorResetButton {
+	@include elemAutoWidth(120);
+}
+#MainPageContent2_ErrorResetButton {
+	@include elemAutoHeight(40);
+}
+#MainPageContent2_ErrorResetButton {
+		z-index: 5;
+}

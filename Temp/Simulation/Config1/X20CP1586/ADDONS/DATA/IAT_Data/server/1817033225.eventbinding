@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="Adjust_theme_content">
+    <EventBinding id="EventBinding_1">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Adjust_theme_content_Theme1" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.ChangeTheme"><Parameter name="theme" xsi:type="ANY_STRING" value="BuRTheme1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Adjust_theme_content">
+    <EventBinding id="EventBinding_2">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Adjust_theme_content_Flat1" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.ChangeTheme"><Parameter name="theme" xsi:type="ANY_STRING" value="BuRThemeFlat1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Adjust_theme_content">
+    <EventBinding id="EventBinding_4">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Adjust_theme_content_Flat2" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.ChangeTheme"><Parameter name="theme" xsi:type="ANY_STRING" value="BuRThemeFlat2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Adjust_theme_content">
+    <EventBinding id="EventBinding_3">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Adjust_theme_content_Grey" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.ChangeTheme"><Parameter name="theme" xsi:type="ANY_STRING" value="BuRThemeMobileGray" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Time_Adjust">
+    <EventBinding id="Time_get">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Time_Adjust_get_time_button" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Human_Comp:visGetDateTime">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Time_Adjust">
+    <EventBinding id="Time_set">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Time_Adjust_set_time_button" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Human_Comp:visSetDateTime">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <EventBinding id="EventBinding_8">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Public_Navigation_Left_InterruptButton" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Interrupt">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Continue">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation_Left">
+    <EventBinding id="EventBinding_9">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Public_Navigation_Left_ContinueButton" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Continue">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::Robotics:fbMy6Axis.Interrupt">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <EventBinding id="EventBinding_10">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.MoveDone" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="content_MainPageContent_ProgramStatus">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="content_MainPageContent">
+    <EventBinding id="EventBinding_11">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.MoveDone" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="content_MainPageContent_ProgramStatus">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_20">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Error" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_ErrorState">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_NoError">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_21">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Error" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_ErrorState">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_NoError">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_5">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.InMotion" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Run">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Stop">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Pause">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_7">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.InMotion" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Run">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_12">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Interrupt" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Pause">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Run">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Stop">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_13">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Interrupt" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Pause">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_16">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Stop" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Stop">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Run">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Pause">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_17">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Stop" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Stop">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_18">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Enable" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_EnableTrue">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_EnableFalse">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_19">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.Enable" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_EnableTrue">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_EnableFalse">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_24">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.IsHomed" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="public_navigation_up_IsHomed">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_25">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.IsHomed" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="public_navigation_up_IsHomed">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_26">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.PowerOn" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_PowerOn">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_PowerOff">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_27">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.PowerOn" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_PowerOff">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_PowerOn">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_30">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.SingleStep" event="ValueChanged" />
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_SingleStep">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Continuous">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_31">
+      <Source type="opcUa.Event" refId="::Robotics:fbMy6Axis.SingleStep" event="ValueChanged" />
+      <EventHandler condition="newValue=false">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_Continuous">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="widgets.brease.Image.Action" refId="public_navigation_up_SingleStep">
+                <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="public_navigation_up">
+    <EventBinding id="EventBinding_6">
+      <Source type="widgets.brease.DateTimeOutput.Event" event="Click" refId="public_navigation_up_Time_display" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Human_Comp:visGetDateTime">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation">
+    <EventBinding id="EventBinding_14">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Public_Navigation_LogIn" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="LogIn Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation">
+    <EventBinding id="EventBinding_15">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Public_Navigation_Main" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Main Page(Monitor)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation">
+    <EventBinding id="EventBinding_22">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Public_Navigation_Setting_button" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Setting Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation">
+    <EventBinding id="EventBinding_23">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Public_Navigation_Manual_Mode" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Manual Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation">
+    <EventBinding id="EventBinding_28">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Public_Navigation_Service" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Service Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Public_Navigation">
+    <EventBinding id="EventBinding_29">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Public_Navigation_Service" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Service Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Setting_Main">
+    <EventBinding id="EventBinding_34">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="Setting_Main_Documenttaion_button" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="doc_main">
+    <EventBinding id="EventBinding_32">
+      <Source type="widgets.brease.NavigationButton.Event" event="Click" refId="doc_main_DocBackSet" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Robotics:CurrentPage">
+            <Method type="opcUa.NodeAction.SetValueString"><Parameter name="value" xsi:type="ANY_STRING" value="Setting Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

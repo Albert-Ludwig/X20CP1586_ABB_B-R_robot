@@ -1,0 +1,133 @@
+#Public_Navigation_LogIn {
+  top: 20px;
+  position: absolute;
+}
+
+#Public_Navigation_LogIn {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_LogIn {
+  width: 120px;
+}
+
+#Public_Navigation_LogIn {
+  height: 60px;
+}
+
+#Public_Navigation_LogIn {
+  z-index: 0;
+}
+
+#Public_Navigation_LogIn span {
+  font-weight: normal;
+}
+
+#Public_Navigation_Setting_button {
+  top: 160px;
+  position: absolute;
+}
+
+#Public_Navigation_Setting_button {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Setting_button {
+  width: 120px;
+}
+
+#Public_Navigation_Setting_button {
+  height: 60px;
+}
+
+#Public_Navigation_Setting_button {
+  z-index: 1;
+}
+
+#Public_Navigation_Setting_button span {
+  font-weight: normal;
+}
+
+#Public_Navigation_Main {
+  top: 300px;
+  position: absolute;
+}
+
+#Public_Navigation_Main {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Main {
+  width: 120px;
+}
+
+#Public_Navigation_Main {
+  height: 60px;
+}
+
+#Public_Navigation_Main {
+  z-index: 2;
+}
+
+#Public_Navigation_Main:not(.disabled):not(.active):not(.checked) {
+  background-color: #ffc0c0;
+}
+
+#Public_Navigation_Main span {
+  font-weight: bold;
+}
+
+#Public_Navigation_Manual_Mode {
+  top: 440px;
+  position: absolute;
+}
+
+#Public_Navigation_Manual_Mode {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Manual_Mode {
+  width: 120px;
+}
+
+#Public_Navigation_Manual_Mode {
+  height: 60px;
+}
+
+#Public_Navigation_Manual_Mode {
+  z-index: 3;
+}
+
+#Public_Navigation_Manual_Mode span {
+  font-weight: normal;
+}
+
+#Public_Navigation_Service {
+  top: 580px;
+  position: absolute;
+}
+
+#Public_Navigation_Service {
+  left: 0px;
+  position: absolute;
+}
+
+#Public_Navigation_Service {
+  width: 120px;
+}
+
+#Public_Navigation_Service {
+  height: 60px;
+}
+
+#Public_Navigation_Service {
+  z-index: 4;
+}
+
+#Public_Navigation_Service span {
+  font-weight: normal;
+}

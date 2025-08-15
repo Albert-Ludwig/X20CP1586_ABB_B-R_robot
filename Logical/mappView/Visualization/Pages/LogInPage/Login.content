@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Login_content" height="840" width="1330" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Login" id="Login" top="100" left="40" width="560" height="140" zIndex="0" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="0" x2="1340" y1="480" y2="480" lineColor="rgba(0, 0, 128, 1)" lineWidth="3px" />
+    <Widget xsi:type="widgets.brease.LogoutButton" id="Logout" top="260" left="60" width="120" height="40" zIndex="2" text="Logout" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="SelectedUser" top="40" left="660" width="140" zIndex="3" value="$IAT/Selected_User" backColor="rgba(245, 245, 245, 1)" textAlign="center" fontSize="18px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="4" x1="640" x2="640" y1="0" y2="480" lineColor="rgba(0, 0, 128, 1)" lineWidth="3px" />
+    <Widget xsi:type="widgets.brease.LoginInfo" id="SelectedUserName" top="40" left="920" width="220" zIndex="5" textAlign="center" fontSize="18px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="RoleName" top="140" left="660" width="140" zIndex="6" value="$IAT/Role_Name" backColor="rgba(245, 245, 245, 1)" textAlign="center" fontSize="18px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Role_Name_Disp" top="140" left="840" width="440" zIndex="7" value="$IAT/User_1" textAlign="center" fontSize="18px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Role_Name_Disp2" top="200" left="840" width="440" zIndex="8" value="$IAT/User_2" textAlign="center" fontSize="18px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Role_Name_Disp3" top="260" left="840" width="440" zIndex="9" value="$IAT/User_3" textAlign="center" fontSize="18px" />
+  </Widgets>
+</Content>

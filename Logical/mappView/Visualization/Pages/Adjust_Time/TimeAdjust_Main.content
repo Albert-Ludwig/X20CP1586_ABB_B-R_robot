@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Time_Adjust" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.DateTimeInput" id="Adjust_Time_widget" top="180" left="220" width="340" zIndex="0" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TimeAdj_Page" top="20" left="20" width="180" zIndex="1" value="$IAT/Time_Adjust_Page" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="timeAdj_back_setting" top="80" left="40" zIndex="2" pageId="Setting_mainPage" text="Setting" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="timeAdj_notation" top="280" left="60" width="700" height="80" zIndex="3" value="$IAT/TimeAdj_notation" />
+    <Widget xsi:type="widgets.brease.Button" id="set_time_button" top="180" left="80" zIndex="4" text="Set" />
+    <Widget xsi:type="widgets.brease.Button" id="get_time_button" top="180" left="600" zIndex="5" text="Get" />
+  </Widgets>
+</Content>

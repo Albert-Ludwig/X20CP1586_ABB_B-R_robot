@@ -1,0 +1,91 @@
+﻿@import "mixins.scss";
+#Time_Adjust_Adjust_Time_widget {
+	@include elemHeight(30);
+}
+#Time_Adjust_Adjust_Time_widget {
+	@include elemTop(180);
+}
+#Time_Adjust_Adjust_Time_widget {
+	@include elemLeft(220);
+}
+#Time_Adjust_Adjust_Time_widget {
+	@include elemWidth(340);
+}
+#Time_Adjust_Adjust_Time_widget {
+		z-index: 0;
+}
+#Time_Adjust_TimeAdj_Page {
+	@include elemAutoHeight(30);
+}
+#Time_Adjust_TimeAdj_Page {
+	@include elemTop(20);
+}
+#Time_Adjust_TimeAdj_Page {
+	@include elemLeft(20);
+}
+#Time_Adjust_TimeAdj_Page {
+	@include elemAutoWidth(180);
+}
+#Time_Adjust_TimeAdj_Page {
+		z-index: 1;
+}
+#Time_Adjust_timeAdj_back_setting {
+	@include elemAutoWidth(100);
+}
+#Time_Adjust_timeAdj_back_setting {
+	@include elemAutoHeight(30);
+}
+#Time_Adjust_timeAdj_back_setting {
+	@include elemTop(80);
+}
+#Time_Adjust_timeAdj_back_setting {
+	@include elemLeft(40);
+}
+#Time_Adjust_timeAdj_back_setting {
+		z-index: 2;
+}
+#Time_Adjust_timeAdj_notation {
+	@include elemTop(280);
+}
+#Time_Adjust_timeAdj_notation {
+	@include elemLeft(60);
+}
+#Time_Adjust_timeAdj_notation {
+	@include elemAutoWidth(700);
+}
+#Time_Adjust_timeAdj_notation {
+	@include elemAutoHeight(80);
+}
+#Time_Adjust_timeAdj_notation {
+		z-index: 3;
+}
+#Time_Adjust_set_time_button {
+	@include elemAutoWidth(100);
+}
+#Time_Adjust_set_time_button {
+	@include elemAutoHeight(30);
+}
+#Time_Adjust_set_time_button {
+	@include elemTop(180);
+}
+#Time_Adjust_set_time_button {
+	@include elemLeft(80);
+}
+#Time_Adjust_set_time_button {
+		z-index: 4;
+}
+#Time_Adjust_get_time_button {
+	@include elemAutoWidth(100);
+}
+#Time_Adjust_get_time_button {
+	@include elemAutoHeight(30);
+}
+#Time_Adjust_get_time_button {
+	@include elemTop(180);
+}
+#Time_Adjust_get_time_button {
+	@include elemLeft(600);
+}
+#Time_Adjust_get_time_button {
+		z-index: 5;
+}

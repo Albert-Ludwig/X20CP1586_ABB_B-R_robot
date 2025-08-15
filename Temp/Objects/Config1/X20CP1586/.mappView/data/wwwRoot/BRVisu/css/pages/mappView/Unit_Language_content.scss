@@ -1,0 +1,84 @@
+﻿@import "mixins.scss";
+#Unit_Language_content_LanguageSelector1 {
+	&.DropDownBoxView{
+	@include elemHeight(30);
+	}
+}
+#Unit_Language_content_LanguageSelector1 {
+	@include elemTop(260);
+}
+#Unit_Language_content_LanguageSelector1 {
+	@include elemLeft(220);
+}
+#Unit_Language_content_LanguageSelector1 {
+	&.DropDownBoxView{
+	@include elemWidth(120);
+	}
+}
+#Unit_Language_content_LanguageSelector1 {
+		z-index: 0;
+}
+#Unit_Language_content_Metric {
+	&.DropDownBoxView{
+	@include elemHeight(30);
+	}
+}
+#Unit_Language_content_Metric {
+	@include elemTop(260);
+}
+#Unit_Language_content_Metric {
+	@include elemLeft(400);
+}
+#Unit_Language_content_Metric {
+	&.DropDownBoxView{
+	@include elemWidth(120);
+	}
+}
+#Unit_Language_content_Metric {
+		z-index: 1;
+}
+#Unit_Language_content_Unit_Language {
+	@include elemAutoHeight(30);
+}
+#Unit_Language_content_Unit_Language {
+	@include elemTop(20);
+}
+#Unit_Language_content_Unit_Language {
+	@include elemLeft(20);
+}
+#Unit_Language_content_Unit_Language {
+	@include elemAutoWidth(300);
+}
+#Unit_Language_content_Unit_Language {
+		z-index: 2;
+}
+#Unit_Language_content_U_L_back_setting {
+	@include elemAutoWidth(100);
+}
+#Unit_Language_content_U_L_back_setting {
+	@include elemAutoHeight(30);
+}
+#Unit_Language_content_U_L_back_setting {
+	@include elemTop(80);
+}
+#Unit_Language_content_U_L_back_setting {
+	@include elemLeft(40);
+}
+#Unit_Language_content_U_L_back_setting {
+		z-index: 3;
+}
+#Unit_Language_content_U_L_text {
+	@include elemTop(380);
+}
+#Unit_Language_content_U_L_text {
+	@include elemLeft(60);
+}
+#Unit_Language_content_U_L_text {
+	@include elemAutoWidth(680);
+}
+#Unit_Language_content_U_L_text {
+	@include elemAutoHeight(180);
+}
+#Unit_Language_content_U_L_text {
+		z-index: 4;
+}

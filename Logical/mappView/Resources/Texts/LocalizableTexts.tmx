@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Hello_World">
+      <tuv xml:lang="zh">
+        <seg>你好，欢迎来到贝加莱自动化人机界面！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hello, welcome to the B&amp;R human-computer interface homepage.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Main_Page">
+      <tuv xml:lang="zh">
+        <seg>主界面</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Main Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="position">
+      <tuv xml:lang="zh">
+        <seg>位置</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Service_page">
+      <tuv xml:lang="zh">
+        <seg>诊断界面_SDM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Service Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="settingPage_text">
+      <tuv xml:lang="zh">
+        <seg>设置界面</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Setting Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Time_Adjust_Page">
+      <tuv xml:lang="zh">
+        <seg>时间调整界面</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Adjust Time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeAdj_notation">
+      <tuv xml:lang="zh">
+        <seg>这里是时间调整界面，请在方框中输入更改后的时间：</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hi! This page is the time-adjustement; please enter the targeted new time into the box.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ThemeAdj_Page">
+      <tuv xml:lang="zh">
+        <seg>主题效果</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Adjust Theme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Program_monitoring">
+      <tuv xml:lang="zh">
+        <seg>程序监控</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Program monitor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Unit_Language_setting">
+      <tuv xml:lang="zh">
+        <seg>单位及其语言设置</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Unit &amp; Language setting</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Unit_language_text">
+      <tuv xml:lang="zh">
+        <seg>您好，欢迎来到语言与单位设置页面。该页面包含区域偏好设置；
+语言选项提供中文与英文，单位提供英制单位和公制单位。
+注意：英制单位并非是标准化英制单位，需查看实际表现来进行调整和更改。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hi! This is the regional setting, includes unit, language and other related settings. 
+We offer Chinese and Canadian English, and standard metric unit and imperial unit. 
+Attention: the imperial unit is not exactly fulfill the traditional habit of the imperial unit, 
+please check ther actual performance.
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Manual_Page">
+      <tuv xml:lang="zh">
+        <seg>手动模式</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Manual_Page_content">
+      <tuv xml:lang="zh">
+        <seg>您好，欢迎来到手动模式。您可以输入目标点的笛卡尔坐标并且按下“move“按钮来完成移动。
+注意：由于手动模式是根据输入坐标移动，因此无法使用”Run“按钮来运行程序。
+如果想要对其他按钮（ie. power）进行操作，请返回Main page。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hi! This is the manual mode, you can enter the destination coordinate into the box, and click the button "move". 
+Attention, you can not use the "Run" button in the manual mode since this is the button for running a program. 
+If you want to modify other buttons, you can back to the main page to adjust them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ProgramSelectionPage">
+      <tuv xml:lang="zh">
+        <seg>程序选择</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Program Selection</seg>
+      </tuv>
+    </tu>
+    <tu tuid="InformationDisplay">
+      <tuv xml:lang="zh">
+        <seg>信息显示
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Information Display</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PathVelocity">
+      <tuv xml:lang="zh">
+        <seg>路径速度:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Path Velocity:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LineNumber">
+      <tuv xml:lang="zh">
+        <seg>当前运行行数:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Line Number:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StateNumber">
+      <tuv xml:lang="zh">
+        <seg>状态代码:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Status ID:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="OverallTime">
+      <tuv xml:lang="zh">
+        <seg>总运行时间:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Overall Runtime:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MovementTime">
+      <tuv xml:lang="zh">
+        <seg>机器人运动时间:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Movement Runtime:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LogIn_Page">
+      <tuv xml:lang="zh">
+        <seg>登陆界面</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Log in Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Selected_User">
+      <tuv xml:lang="zh">
+        <seg>选择用户:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Selected User:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Role_Name">
+      <tuv xml:lang="zh">
+        <seg>角色:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Role Name:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Doc_Page">
+      <tuv xml:lang="zh">
+        <seg>说明书/文档</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Documentation Page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="User_1">
+      <tuv xml:lang="zh">
+        <seg>用户User_1的权限为(Adminstrator)全权限管理员</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User_1 is Adminstrator</seg>
+      </tuv>
+    </tu>
+    <tu tuid="User_2">
+      <tuv xml:lang="zh">
+        <seg>用户User_2的权限为(Maintain)维护人员</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User_2 is Miantainer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="User_3">
+      <tuv xml:lang="zh">
+        <seg>用户User_3的权限为(Operator)操作工</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User_3 is Operator</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

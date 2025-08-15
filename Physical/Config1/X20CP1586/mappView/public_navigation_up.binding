@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="public_navigation_up_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+	
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Human_Comp:visDateTime" attribute="value" />
+<Target xsi:type="brease" contentRefId="public_navigation_up" widgetRefId="Time_display" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:My6Axis_Par.ProgramName" attribute="value" />
+<Target xsi:type="brease" contentRefId="ProgramMain" widgetRefId="ProgramInput" attribute="value" />
+</Binding>
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.CurrentProgram" attribute="value" />
+<Target xsi:type="brease" contentRefId="public_navigation_up" widgetRefId="ProgramName" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.SingleStep" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="SingleChangeButton" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.LineNumber" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_MainPageContent" widgetRefId="Line_Number" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.StatusID" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_MainPageContent" widgetRefId="Line_Number1" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.OverallRuntime" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_MainPageContent" widgetRefId="PathVelValue1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:fbMy6Axis.Info.Program.ProgramMonitor.MovementRuntime" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_MainPageContent" widgetRefId="MovementRunTime" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:RunButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="RunProgram_button" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:PowerButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="PowerSwitch" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:InterruptButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="InterruptButton" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:ContinueButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="ContinueButton" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:SingleStepButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="SingleChangeButton" attribute="enable" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:HomeButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation_Left" widgetRefId="HomeButton" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:LogInButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation" widgetRefId="LogIn" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:SettingButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation" widgetRefId="Setting_button" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:ManualButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation" widgetRefId="Manual_Mode" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:ServiceButton.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="Public_Navigation" widgetRefId="Service" attribute="enable" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Robotics:Message" attribute="value" />
+<Target xsi:type="brease" contentRefId="content_MainPageContent" widgetRefId="Message" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>
